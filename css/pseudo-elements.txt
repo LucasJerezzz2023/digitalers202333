@@ -1,0 +1,160 @@
+pseudo elemento: 
+
+explicado por dalto: pseudo elemento es un elemento que no es un elemento por el hecho de que
+no forma parte del dom,pero si podemos ver cambios visuales,es com el outline,podemos ver
+cambio visual pero no afecta al dom 
+  
+ -----------
+
+para aplicar un pseudo-elemeto ponemos "::" + first-line o first-letter,etc
+  
+
+--en first-line-------------------- 
+
+osea quedaria:
+
+en html
+
+<div class="texto">
+<p>lorem dlfjerergeojngoidfnjgoidfngoi
+ergneoignemrgoieergoenmgo
+erpgokmerpgmerpgmerpgemrpgo</p>
+</div
+
+en css
+
+
+.texto::first-line{
+      color: red;
+}
+
+y asi solo la primera linea(first-line) se cambiaria de color rojo
+
+ejemplo:
+
+ <div class="texto">
+<p>lorem dlfjerergeojngoidfnjgoidfngoi <-------esto se cambiaria a rojo
+ergneoignemrgoieergoenmgo
+erpgokmerpgmerpgmerpgemrpgo</p>
+</div
+
+
+----en first-letter-----------------
+
+quedaraia:
+
+
+         <div class="texto">
+         <p>l<----------solo esta letra se modificaria......orem dlfjerergeojngoidfnjgoidfngoi 
+          ergneoignemrgoieergoenmgo
+           erpgokmerpgmerpgmerpgemrpgo</p>
+            </div
+
+
+
+-----------en selection----------------
+
+
+modifica la seleccion que le demos al contenedor o a una etiqueta
+
+por ejemplo:
+
+<body>
+
+en html
+
+<p>hola como estas</p>
+
+en css
+
+p::selection{
+    backround-color: red;
+  
+}
+
+entonces cuando lo marquemos en mouse por todo el texto esa seleccion
+sera de color rojo
+
+-------------before y after-----------------
+
+en before y after crea un elemento que es en caso de "before" crea un pseudoelemento 
+que es el primer hijo del elemento seleccionado y en caso de "after" crea un pseudo-elemento 
+que es el último hijo del elemento seleccionado
+
+
+
+en html
+
+<b> a </b>
+
+
+en css
+
+
+b::before{ 
+    content: "me suscribi";
+   color:red;
+}
+
+b::after{
+    content: "todo tendencias";
+    color: red;
+}
+
+
+
+
+
+
+
+
+ 
+  
+  
+ Los pseudo-elementos
+
+ ::before y ::after permiten añadir contenido 
+a un elemento desde la hoja de estilo, al principio o al final del elemento.
+ El contenido generado no puede seleccionarse con el ratón (para copiarlo y
+ pegarlo en otro documento, por ejemplo). Este párrafo es un párrafo <p> sin clase.
+
+
+pseudo-elementos !teoria!
+
+ ::first-line   ! block : funciona en elementos de bloque,los elementos 
+en linea no funciona,osea funciona en los inline block y en los blockes,
+en los inline no finciona,
+
+funciona en : inline bock,block,flex,grid
+no funciona en : inline
+
+
+
+ ::first-letter ! block :
+
+
+ ::placeholder : Un placeholder es un código utilizado en elementos
+ de entrada de formulario, como campos o áreas de texto, para proporcionar
+ una sugerencia o ejemplo de lo que se espera que el usuario ingrese en ese espacio
+
+
+ 
+ ::after        ! hijos - content (necesario) - inline : crea un pseudo-elemento 
+que es el último hijo del elemento seleccionado
+
+
+ ::before       ! hijos - content (necesario) - inline : crea un pseudoelemento 
+que es el primer hijo del elemento seleccionado.
+
+
+
+ ::selection  : modifica la seleccion que le demos al contenedor o a una etiqueta
+
+
+
+----------
+
+
+
+
+

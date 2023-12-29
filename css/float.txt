@@ -1,0 +1,14 @@
+ 
+ 
+ float: La propiedad CSS float ubica un elemento al lado izquierdo
+ o derecho de su contenedor, permitiendo a los elementos de texto
+ y en línea aparecer a su costado. El elemento es removido del normal
+ flujo de la página, aunque aún sigue siendo parte del flujo 
+(a diferencia del posicionamiento absoluto)
+ 
+ 
+ 2)float: (left, right, none, inherit)
+
+
+
+con esto podriamos hacer un texto flotante por ejemplo

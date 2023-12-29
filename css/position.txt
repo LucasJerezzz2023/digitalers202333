@@ -1,0 +1,164 @@
+ 
+ 
+ 
+ 
+ 12) position
+
+
+cuando trabajamos con position es agarrar el elemento y posicionarlo
+
+que esta posicionado significa que adquiere nuevas propiedades,las propiedades
+que adquiere cuando posicionamos nos permiten hacer varias cosas como por eje:
+top,right,left,button,zindex que ahora lo vamos a ver con mas profundidad
+
+estas son las posibilidades de position:
+
+
+  static:  es el valor por defecto,osea si ponemos esto no esta posicionado,cuando se 
+usa static como valor de la propiedad position,se considera que no esta posicionado,asi que
+tenemos 4 formas de posicionarlo: relative,absolute,fixed,sticky
+
+  relative: adquiere la propiedad,top,left,right,botton,mantiene su espacio en
+pantalla,su punto de referencia es el mismo,y adquiere una propiedad que es el
+"zindex"
+
+el "zindex" es como la forma en que vamos a poner un elemento por encima
+de otro,lo que hace zindex es que en el eje z los ordena,quien tenga un valor
+mas alto va a estar,adelante de nuestra vista en el eje z,osea el valor mas alto
+de zindex es el que va a aparecer mas adelante,
+el zindex tiene conflicto entre "padres e hijos"
+
+el zindex se puede aplicar unicamente si la caja esta posicionada,si la caja
+no esta posicionada,no se puede aplicar
+
+lo recomendable para usar zindex es no ponerle un valor de 1,2,3,4 y asi sucesivamente
+sino que ir de 10 a 20 o 100 a 200 y asi,porque despues si queremos modificar algunos
+de los primero 5 ya no podremos
+
+
+si tenemos 2 cajas,una es el padre y la otra es el hijo
+
+y queremos que el hijo se ponga al frente del padre,es decir adelante
+tenemos que darle al hijo 
+
+position-relative:
+zindex: 
+
+y aal padre:
+
+position-relative
+zindex:-1
+
+en css quedaria asi
+
+
+
+padre{
+     position-relative
+     zindex:-1
+}
+
+hijo{
+     position relative
+     zindex:  podriamos dejarlo vacio o ponerle 1 
+}
+
+
+de esta forma el hijo quedaria por delante del padre
+
+  absolute: es igual que position relative,solo que hay 2 diferencia,El posicionamiento
+ absolute hace que un elemento se coloque respecto a su contenedor posicionado mas
+ cercano, si no encuentra ningún contenedor cercano, el elemento se colocara respecto al viewport.
+
+si tenemos 3 cajas: caja 1, caja 2, caja 3
+
+
+     cajas:
+      
+   i -------i
+   i   1    i
+   i        i
+   i--------i      
+   i -------i
+   i   2    i
+   i        i
+   i--------i      
+   i -------i
+   i   3    i
+   i        i
+   i--------i   
+
+
+
+y a la caja 2 la queremos borrar, con position absolute lo que hara es que borra esa caja 2
+y a la 3 la pega con la 1 y la otra se juntara autoaticamente es decir asi
+
+
+  cajas:
+      
+   i -------i
+   i   1    i
+   i        i
+   i--------i          
+   i -------i
+   i   3    i
+   i        i
+   i--------i      
+
+
+en cambio con position relative la caja no se pegara,seguira estando ahi
+ejemplo:
+
+
+     ANTES 
+
+                               
+     cajas:
+      
+
+   i -------i
+   i   1    i
+   i        i
+   i--------i      
+   i -------i
+   i   2    i
+   i        i
+   i--------i      
+   i -------i
+   i   3    i
+   i        i
+   i--------i   
+
+
+    DESPUES
+ 
+ 
+   i -------i
+   i   1    i
+   i        i
+   i--------i
+
+
+          
+   i -------i
+   i   3    i
+   i        i
+   i--------i  
+
+
+
+
+
+
+
+
+"opaciti": es la transparencia,va desde el:0.1 o 1,si ponemos 100 es lo mismo de 1
+
+  fixed: es lo mismo que el absolute pero solo que el objeto queda fijo,por ejemplo:
+una publicidad si le ponemos fixed,cuando bajemos la barrita para abajo la publicidad 
+seguira quieta
+
+  sticky: El posicionamiento sticky puede considerarse un híbrido de los posicionamientos
+ relativo y fijo. Un elemento con posicionamiento sticky es tratado como un elemento
+ posicionado relativamente hasta que cruza un umbral especificado, en cuyo punto se trata
+ como fijo hasta que alcanza el límite de su padre.

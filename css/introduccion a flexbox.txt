@@ -1,0 +1,100 @@
+
+ 
+ 
+ flex box : viene de cajas flexibles
+
+
+ 
+ flex requiere de dos cosas
+ 
+ flex container y flex items
+
+flex container es el que va a contener este o estos items que van
+a estar contenidos por el contenedor flex,si le damos display flex a cualquier 
+elemento de por si el elemento,osea el contenedor se comporta como un bloque,osea
+un display block,en donde vamos a notar los cambios es adentro del contenedor
+osea los items que esten  adentro del contenedor
+
+
+------------------flexbox------------------------
+
+   contenedor y contenido
+   flex contaner - flex item
+   main axis (main-start - main-end)
+   cross axis (cross-start - cross-end)
+ 
+   ---propiedades----
+  
+    flex-direction : 
+    flx-wrap: no-wrap - wrap -wrap-reverse;
+    flex-flow : flex-direction flex-wrap;
+    justify-content: center, space-arround, space-between,space-evenly (main axis)
+ 
+ align-items : flex-start, center, flex-enda,stretch, baseline (cross axis)
+
+
+----------------------------------------------------------------------------
+aling-content
+ 
+(para + de una linea)
+
+
+         propiedades de los items
+
+
+  aling-self (cross axis)
+
+   funcionamiento del margin
+
+      margin-(direction) : auto -> margin = contenedor - tamaño de la caja en el
+eje en el que corre (direction)
+
+ flex-grow : (espacio asignado + sobrante / grows) (main axis)
+ 
+     flex-shrink : espaci que "cede" (main axis)
+
+     flex-basis: madicion antes de encogerme (en auto(defect value), agarra el 
+width, y sino tiene mas prioridad) (main axis) 
+
+ flex: flex-grow, flex-shrink, flex-basis (al menos el primer parametro obligatorio)
+
+ 
+ order: (comoel z index,pero en el eje en el que apunta el main axis)
+
+
+
+
+
+
+-----------------------------------
+los tipos de flex:
+
+
+
+flex-direction = 
+  row             |
+  row-reverse     |
+  column          |
+  column-reverse  
+
+
+
+pagina para entender mas esto de flex column: https://developer.mozilla.org/es/docs/Web/CSS/flex-direction
+
+
+
+
+----------------------------------------
+
+todo esto para verlo bien en flex
+
+
+Introducción a Flexbox
+4:48:55 - Conceptos de Flexbox
+4:53:23 - Display Flex
+4:57:14 - Flex direction
+5:01:55 - Flex wrap
+5:06:20 - Alineacion en Flex
+5:21:10 - Flex Grow
+5:25:47 - Flex Basis
+5:27:29 - Flex Shrink

@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+
+                       CLIP PATH
+
+
+---------------------
+
+existen generadores de todo tipo como por ejemplo:
+
+generador de sombra : https://www.cssmatic.com/es/box-shadow
+
+generador de clip path que es como una imagen de formas : https://bennettfeely.com/clippy/
+
+para usar generadores,clip-path

@@ -1,0 +1,20 @@
+ 
+ 
+  otras propiedades , funcion y selectores curiosos de css:
+ 
+ 
+   direction: 1tr | rtl | initial | inherit;  :  es como dar vueltas las letras de izq a der
+  
+   letter spacing:   separa las letras la cantidad que deseamos
+ 
+   scroll-behavior  : es como una transicion, lo usamos para muchas cosas,es como que
+                       el scroll se baja con animacion y transicion
+ 
+   user-selected   :   es para que el usuario no pueda seleccionar la letra
+ 
+   text-shadow     :    agrega sombra al texto
+ 
+ 
+ -------- attr()-------
+ 
+  https://www.w3schools.com/cssref/css_selectors.php

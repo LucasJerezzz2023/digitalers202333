@@ -1,0 +1,155 @@
+ 
+ 
+
+ 
+
+ propiedades del texto (tamaño, tipo de letra,grosor,letra,font-style, text decoration,
+list-style)
+
+algunas propiedades de caja (tamaño, background color,image,border, border-radius, padding,
+margin, box-shadow)
+
+display (block,inline-block,flex,grid,none)
+
+positions (absolute, relative, inherit)
+
+hover
+
+top, left, right, bottom.
+
+
+
+
+
+ 
+ 
+ 
+10)   
+
+ 
+            PROPIEDADES DE CAJAS 
+ 
+ que son las propiedades de las cajas??
+
+las propiedades de cajas son las que modifican o afectan a las cajas
+o al contorno de las cajas o al entorno de las cajas
+
+
+
+el PADDING es la distancia que hay entre los bordes de la caja
+y el texto
+
+
+
+
+                 TOP
+             I------------I            
+             I         <--I--------------------------------- ESTE ES EL PADDING
+   LEFT      I  ¡ HOLA !  I      RIGHT
+             I            I
+             I------------I
+                  BUTTON
+
+PADDING LEFT: IZQUIERDA,ESTA ENTRE EL TEXTO Y LA PARTE IZQUIERDA
+PADDING TOP: ARRIVA,ENTRE EL TEXTO Y LA PARTE DE ARRIVA
+PADDING RIGHT: DERECHA,ESTE ENTRE EL TEXTO Y LA PARTE DERECHA
+PADDING BUTTON: ABAJO,ESTA ENTRE EL TEXTO Y LA PARTE DE ABAJO
+
+height: alto
+widght: ancho
+
+
+PADDING ES UNA PROPIEDAD ACORTADA,PODEMOS ACORTAR,PODEMOS
+PONERLA DE VARIAS FORMAS
+
+
+MARGIN--
+
+
+el margin es la distancia que hay entre las 2 cajas
+
+
+ 
+       
+                   I-----------I           I-----------I               
+                   I           I   MARGIN  I           I     
+                   I           I <-------->I           I           
+                   I           I           I           I
+                   I-----------I           I-----------I
+                 
+si ponemos un margin de 0,las cajas van a estar pegadas
+porque no hay distancia que las separe
+
+
+
+tambien tenemos,margin left,top,right,button,nada mas 
+que esto las separa de las cajas,osea si ponemos
+margin top,la caja se movera para arriva
+
+
+border-radius---
+
+
+
+
+el border-radius es el borde de la caja
+
+le da un borde,por ejemplo hay una caja cuadrada con puntas cuadradas
+y si le ponemos algo de border-radius las puntas de la caja se hara redonda
+
+por ejemplo si queremos hacerlo redondo ponemos
+
+border-radius: 50%;
+ 
+y la caja se hara redonda
+
+despues tenemos otros estilos de border,eso te quedaria a ti probar 
+con cada uno,tambien le podemos dar color o si es solid,etc
+
+despues tenemos "box-shadow" que le da sombra a las cajas
+
+text-shadow"  agrega sombra al texto
+
+------------------------------------------
+como seria un border-radius con otros componentes?
+
+ejemplo:
+
+border: "xpx" + estilo + de que color
+         10px + solid  +  red
+-----------------------------------------------
+si quieren aumentar la intensidad de la sombra y eso pongan el valor y despues
+una coma y luego copien el valor de nuevo a la par
+eje:
+
+
+     text-shadow; 2px 2px 7px color: rgb
+
+
+
+
+  text-shadow; 2px 2px 7px color: rgb,2px 2px 7px color: rgb      <-------aqui esta duplicado
+
+
+
+ TEXT-SHADOW:-----FORMULA
+
+
+ text-shadow: eje x   +  eje y    +  tamaño del desenfoque(sombra)    +  color
+               2px    +    2px    +    7px                            +  red
+
+-----------------------------------
+
+   BOX-SHADOW---formula
+
+
+box-shadow: eje x   +  eje y    +  tamaño del desenfoque(sombra) +    cuanto borde va a tener +  color
+              2px   +  4px      +         15px                   +     0                      +   red
+
+-----------------------------------
+despues tenemos : transform: rotate(90deg);
+
+deg" seria los grados,osea el elemento rotaria 90 grados
+
+y si queremos que rote alreves simplemente ponemos - y los grados,
+eje: rotate(-90deg)

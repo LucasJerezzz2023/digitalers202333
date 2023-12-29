@@ -1,0 +1,44 @@
+
+
+ 
+ 
+ 9)cajas---------------------------<cvajas>-----------------------------------------------------
+
+
+hay solo 2 tipos de cajas: las que son el lineas y en bloques
+
+las que son el bloques son las mas importantes,porque completan el
+contenedor, y los de linea no completan el contenedor
+
+
+
+ --------------------------------------I
+ <H2>HOLA QUE HACE</H2>                I   <-----------ELEMENTO EN BLOQUE
+---------------------------------------I                        
+                                       I
+---------------------------------------I
+ <B>MAINCRAFT</B>                      I   <----------ELEMENTO EN LINEA   
+---------------------------------------I
+
+                                  
+SI YO SIGO ESCRIBIENDO EN EL ELEMENTO EN BLOQUE,ME LO PASA ABAJO PORQUE
+YA ESTA COMPLETO EL CONTENEDOR,EN CAMBIO,SI EN LINEA SI PUEDO SEGUIR 
+ESCRIBIENDO PORQUE NO COMPLETA EL CONTENEDOR
+
+se puede cambiar tambien es decir,si de repente yo quiero 
+que los <b> se comporten como elemento bloque y los <h2>
+se comporten con elemento en linea,se puede lograr,para 
+eso esta el display
+
+eje: 
+ 
+ 
+ h2{
+  display: inline;
+}
+
+b{
+display: block;
+}
+
+--------------------------------------------------------------------------------------------------------------

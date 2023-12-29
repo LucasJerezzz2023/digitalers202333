@@ -1,0 +1,18 @@
+ 
+ 
+ 
+    Cubic Bezier:
+ 
+  es una propiedad para trabajar con animaciones y transiciones,entre otras 
+cosas y es un valor del animation-timing-function y transition-timing-fuction
+ 
+ como se aplica?
+
+ animation-timing-fuction: cubic-bezier(0,94,1.08,0,76,1,11)  <-------esto es una coordenada
+
+ 
+ esto por supuesto va dentro
+ del "{ }" en css
+
+
+todo esto de cubic bezier se puede ver en la pagina con f12

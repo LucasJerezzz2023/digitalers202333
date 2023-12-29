@@ -1,0 +1,496 @@
+
+ que es grid? :
+
+ Grid es un sistema de maquetación web que divide la página en una
+ cuadrícula o rejilla (grid) a partir de la cual se pueden posicionar
+ los diferentes elementos de manera más sencilla, versátil y coherente.
+
+dalto 
+
+  es un valor de la propiedad "display" asi como:
+
+display: flex;
+display: block;
+display : inline;
+display : grid;
+etc
+
+el grid container es el que los contiene a todos
+
+grid viene de "grillas"
+
+que es una grilla??
+
+La grilla es un elemento sistémico, organizador y estructurante 
+del espacio gráfico. La grilla tipográfica permite ordenar y disponer
+ los elementos que componen la pieza gráfica, ya sean tipográficos
+ (títulos, subtítulos, textos, epígrafes) como gráficos (fotografías,
+ esquemas, imágenes).
+
+-----------------------------------------------------------------------
+
+ 
+ 
+
+
+
+
+
+    ESTE ES UN CONTENEDOR PARA DARLE UN DISPLAY:
+ 
+ 
+ 
+
+                             I-----I------I------I-----I-----I
+                             I     I      I      I     I     I
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I 
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I
+ 
+
+
+
+
+--------------------------------------------
+
+------------------conceptos basicos de grid-----------------------
+
+-grid container : Es el elemento padre contenedor. Se encarga de manejar cómo
+ sus hijos son alineados y contiene el número de filas y columnas que tendrá el layout
+
+
+
+                         I---------------------------------------I
+                         I                                       I
+                         I    I-----I------I------I-----I-----I  I
+                         I    I     I      I      I     I     I  I
+                         I    I     I      I      I     I     I  I
+                         I    I-----I------I------I-----I-----I  I     
+                         I    I     I      I      I     I     I  I
+                         I    I     I      I      I     I     I  I
+                         I    I-----I------I------I-----I-----I  I   <---------GRID CONTAINER   
+                         I    I     I      I      I     I     I  I SERIA TODO EL CONTENEDOR
+                         I    I     I      I      I     I     I  I
+                         I    I-----I------I------I-----I-----I  I     
+                         I    I     I      I      I     I     I  I
+                         I    I-----I------I------I-----I-----I  I
+                         I                                       I
+-                        I---------------------------------------I
+
+-----------------------------------------
+-grid item : Grid Item es cada uno de los hijos que contiene la cuadrícula 
+(elemento contenedor).
+
+                    
+
+
+
+                    
+                             I-----I------I------I-----I-----I
+                             I     I      I      I     I   <-------ESTE PODRIA SER UNO
+                             I     I      I      I     I     I  DE LOS HIJOS
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I 
+     O ESTE ------------------->   I      I      I     I     I
+     TAMBIEN                 I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I
+ 
+OSEA CADA UNO DE LOS HIJOS POR EJEMPLO PODRIA SER:
+
+----I
+    I
+<H1>I <------------ESTE SERIA EL CONTENEDOR,OSEA EL "PADRE"
+    I
+    I
+----I
+<P> I <---------Y ESTE SERIA EL HIJO OSEA EL "GRID ITEMS"
+    I
+</P>I
+    I
+----I 
+
+  
+</H1>
+
+               
+
+               
+
+
+--------------------------------------- 
+-grid cell : Grid Cell es Cada uno de los cuadritos (unidad mínima)
+ de la cuadrícula.
+
+
+
+
+                                                     I---------I
+                             I-----I------I------I---I-I-----I I
+                             I     I      I      I   I I    <-----ESTA SERIA UNA DE
+                             I     I      I      I   I I     I I LAS CELDAS
+                             I-----I------I------I---I-I-----I I     
+                             I     I      I      I   I---------I
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I 
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I
+ 
+
+
+
+
+----------------------------------------
+-grid tracks (column line(1) y (2)row) : (1)son lineas invisibles divisoras
+ horizontales y verticales dentro de la cuadricula
+
+ (2)Una grid row es una pista horizontal en un CSS Grid Layout,
+ es el espacio entre dos líneas de cuadrícula horizontales
+
+en otras palabras (1)gridline : es una fila vertical 
+y (2)grid row : es una fila horizontal
+
+
+                                                                                               
+                                                     I--------------I
+                                                     I              I
+                             I-----I------I------I---I--I-----I     I 
+                             I     I      I      I   I  I     I     I  
+                             I     I      I      I   I  I     I     I
+                             I-----I------I------I---I--I-----I     I 
+                             I     I      I      I   I  I     I     I
+                             I     I      I      I   I  I     I     I
+                             I-----I------I------I---I--I-----I     I <-------ESTO SERIA
+                             I     I      I      I   I  I     I     I  GRID LINE
+                             I     I      I      I   I  I     I     I
+                             I-----I------I------I---I--I-----I     I 
+                             I     I      I      I   I  I     I     I
+                             I-----I------I------I---I--I-----I-----I
+                                                     
+                       ------------------------------------------                             
+                                 ESTO SERIA GRID ROW
+                              OSEA UNA FILA HORIZONTAL
+
+
+
+
+
+  GRID LINE:     I---I
+                 I   I              
+                 I   I
+                 I   I
+                 I---I
+
+
+GRID ROW:      I--------------I
+               I              I
+               I--------------I
+
+
+----------------------------
+-grid area : son areas que nosotros seleccionamos y a su vez son consecutivas,es decir
+puede tomar varias filas o cuadrados que querramos,las areas las definimos nosotros
+
+
+
+
+
+                                                 I---------------I
+                                                 I               I
+                                                 I               I
+                             I-----I------I------I-----I-----I   I
+                             I     I      I      I     I     I   I
+                             I     I      I      I     I     I   I <ESTO SERIA GRID AREA 
+                             I-----I------I------I-----I-----I   I   OSEA UN AREA DEL CONTENEDOR
+                             I     I      I      I     I     I   I
+                             I     I      I      I     I     I   I
+                             I-----I------I------I-----I-----I---I    
+                             I     I      I      I     I     I 
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I
+
+
+podemos definir cualquier parte del contenedor
+lo recomendable es que ocupe mas de un cuadrado sino no tiene sentido
+
+
+
+-------------------------------
+-grid line (column line y row line)
+
+
+
+
+
+
+
+                                   I
+                                   I
+                                   I
+             i --------------I-----I------I------I-----I-----I-----<----------row line
+             i --------------I     I      I      I     I     I-----i
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I 
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I      
+                             I     I      I      I     I     I
+                             I-----I------I------I-----I-----I
+                                   I
+                                   I
+                                   I
+                                  COLUMN LINE
+
+
+
+
+
+
+
+
+
+
+
+------------------------propiedade------------------------------
+
+grid-template-rows (grid-container) :  es como una especie de
+ margin pero entre celdas, es como la distancia quae va a haber entre una 
+celda y otra respectivamente hacia todos los bordes,pero los bordes
+no se van a separar
+
+            
+
+grid-template-column (grid-container) : es como una especie de
+ margin pero entre celdas, es como la distancia quae va a haber entre una 
+celda y otra respectivamente hacia todos los bordes,pero los bordes
+no se van a separar
+
+
+-------------------------------------------------------
+
+
+unidades "auto" y fr : Las vías se pueden definir usando cualquier unidad de medida.
+ Grid también introduce una unidad de longitud adicional para ayudarnos a crear vías 
+de cuadrícula flexibles. La nueva unidad fr representa una fracción del espacio disponible
+ en el contenedor de la cuadrícula.
+
+-----------------------------------
+¿Qué es el gap en CSS?            gap: brecha
+gap en CSS es una taquigrafía para la fila- . gap y la columna- . gap 
+, que especifica el tamaño de las canaletas, que es el espacio entre filas
+ y columnas dentro de la cuadrícula, flexión y diseño de múltiples columnas
+-------------------------------------
+
+
+
+grid-row-gap (grid-container) : es como una especie de resaltador
+si le damos grid-row-gap: 10px; 
+
+entonces entre las celdas y otra habra una distancia pero con borde
+osea resaltado,color negro
+
+
+grid-column-gap (grid-container) : es como una especie de resaltador
+si le damos grid-row-gap: 10px; 
+
+entonces entre las celdas y otra habra una distancia pero con borde
+osea resaltado,color negro
+
+
+grid-gap: row column (grid-container) : es casi lo mismo que el anterior
+
+
+extra: grid-column: 1/3 
+
+esto es para unir una caja con la otra
+
+osea si tenemos 3 cajas estaran 1 al lado de otra
+
+si ponemos esto:   grid-column: 1/3 
+
+.grid-item:first-child {
+grid-column: 1/3 
+}
+
+entonces la caja 1 se pegara con la 2 hasta llegar a la 3
+-----------------------------------------
+
+
+grid-row-start (grid-item) 
+grid-row-end (grid-item)
+grid-column-start (grid-item)     
+grid-column-end  (grid-item)    todo esto esta mejor explicado en el vsc
+grid-row (grid-item)
+grid-column (grid-item)
+
+--------------------------------------------------
+repeat(cantidad,tamaño/s) : 
+
+despues tenmemos "repeat"  
+
+podemos usarlo de la siguiente manera :
+
+
+si ponemos esto: 
+
+
+grid-template-columns: 150px 150px 150px 1fr;
+
+grid-template-columns: repeat(3,150px) 1fr;
+
+
+
+esto es lo mismo
+
+
+
+--------------------------------------------------------
+
+----------------grid implicito y explicito---------------
+
+3 nuevas propiedades del grid implicito
+grid-auto-rows (igual que el template)
+grid-auto-column (igual que el template)
+grid-auto-flow : row (defeat) , column y dense
+
+
+grid implicita:  La cuadrícula implícita es la cuadrícula creada automáticamente 
+debido al contenido que se agrega fuera de las pistas definidas.
+
+grid explicita:  La cuadrícula explícita consiste en las filas y columnas que se
+ definen con las propiedades grid-template-columns y grid-template-rows 
+
+
+
+---------------------------------------------------
+
+                grid dinamico
+ 
+ minmax()
+mincontent
+max-content
+
+ cantidad:
+
+auto-fill
+auto-fit
+
+le podemos dar medidas a los contenedores o a las cajas
+
+
+
+
+-----------------------------------------------------
+
+---------------alineacion y control de flujo-------
+
+diferencia con flex:
+
+la alineacion es dentro de cada celda y no
+
+alineacion total del flex container
+
+_cada celda seria un "flex container"
+
+ (propiedades del grid-container)
+
+justify-items (horizontalmente)
+
+aling-item (verticalmente)
+
+stretch(default) - start - center - end
+
+place-items: align-items justify-items
+
+----------------------------------------------------------
+
+             alineacion de filas y columnas
+
+_justify-content (horizaontalmente)
+
+align-content (verticalmente)
+
+_stretch(default) -  start - center - end
+mas las de flex: 
+            
+                  *space-arround
+                  *space-between
+                  *space-evenly
+
+
+------------------------------------------------------
+
+               aplicado al grid item
+
+_align-self
+_justify-self
+_place-self: align-self justify-self
+
+stretch(default) - start - center - end
+
+_order (igual que en flex)
+
+
+-----------------------------------------------------------------
+ 
+                 areas en grid
+ 
+ 
+ __Al grid container__
+
+grid-template-areas: "nombre/s de area/s":
+
+por eje:
+
+.contenido1{
+
+grid-area: header;
+}
+
+ de esta forma el contenedor se posiciona al header
+
+
+__Al grid item__
+
+ grid-area: "nombre del area"
+
+---------------------------------------------------------
+
+              
+                 nombres a las lineas
+
+[line-name]
+
+se puede remplazar en : grid-row | grid-column
+
+
+ -----------------------------------------------------
+
+                   shorthand
+
+ 
+_grid-template: row / column (grid-container)
+_grid-template: area unidad
+
+
+ 
+
+

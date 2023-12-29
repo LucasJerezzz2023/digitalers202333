@@ -1,0 +1,19 @@
+
+ 
+  background: 
+ 
+   
+   Background-color: color
+
+   Background-image: url()
+
+   Background-size: x,y,auto,cover,containt
+
+   Background-position:left - top - botton - right - center - left - top - 
+ botton - right - center
+
+   Background-attachment: scroll | fixed | inherit
+
+   Background-clip:border-box | padding-box | content-box
+
+   Background-origin - origen de la foto (valores de arriba)

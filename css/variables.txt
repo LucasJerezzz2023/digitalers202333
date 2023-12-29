@@ -1,0 +1,80 @@
+  
+ 
+ variables en css
+
+
+que es una variable?
+ 
+ es un espacio que se almacena en memoria
+ 
+ 
+una variable seria por ejemplo en matematicas: 
+ 
+  x = 10
+  x + 5
+    = 15
+ 
+---------------
+
+FORMULA
+ 
+  :root {
+    -- + nombre + : + # ; 
+   }
+
+  :root {
+    --color-rojo: #f40 ; 
+------------------------------
+
+ 
+ 
+ tenemos : "variables locales" y variables globales"
+
+
+ejemplo de una variable global
+ 
+ 
+ en html
+ 
+ 
+
+ <div class="container">
+    </div>
+ <div class="container-2"></div>
+
+
+en css
+ 
+ 
+ 
+ 
+   div {
+        padding: 30px;
+        height: 150px;
+        width: 150px;
+        margin: 30px;
+    }
+
+   :root {
+    --color-rojo: #f40 ; <---------------esta es la variable,copiamos esto
+    }
+     .container {
+       background: var(--color-rojo) <---------aca pegamos la variable por el color
+     }
+  
+      
+      
+    .container-2 {
+      background: blue;
+      }
+
+
+ 
+ 
+  --varName
+ 
+    var()
+
+
+ 
+  

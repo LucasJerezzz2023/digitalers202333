@@ -1,0 +1,2009 @@
+ 
+ 
+ pagina para ver colores de html: https://htmlcolorcodes.com/es/
+ 
+
+  colores: 
+
+ color NAME : red,blue,green,etc.
+   
+  HEXADECIMAL: son colores con codigos,por ejemplo: #FF0000
+ 
+  RGB : es una mezcla de colores con el "rojo,verde,azul"
+
+  RGBA : es lo mismo que rgb solo que usa la opacidad,mas transparencia
+ 
+            HSL   
+                  estos 2 casi ni se usa
+            HSLA 
+--------------------------------------------------------------------
+para trabajar con rgb,hay que saber que con 3 colores se forman todos
+es decir con "rojo,verde,azul" podemos formar cualquie otro color
+
+ ejemplo:
+
+este es el rgb:
+
+background: rgb( 0  ,   0 ,   0)
+               (rojo,verde,azul)
+               
+
+para formar el color rojo:
+
+background: rgb(255,0,0)
+
+para formar color verde:
+
+
+ 
+ background: rgb(0,255,0)
+
+
+para formar color azul:
+
+
+background: rgb(0,0,255)
+
+para formar negro:
+
+
+background: rgb(0,0,0)
+
+
+para formar blanco:
+
+
+background: rgb(255,255,255)
+
+----------------------------------------------------
+  
+  HEXADECIMAL: 
+ 
+ 
+ #(  f ,   f ,  f )
+  (rojo,verde,azul)
+  (255 , 255 , 255)
+
+esto "f" se identifica con numeros,
+son hexadecimales de 16 unidades
+con numeros serian
+ 
+ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+ a,b,c,d,e,f,a,b,c,d,e,f,a,b,c,d,e,f,a
+
+solo que en el abecedario solo llega hasta 6,es decir hasta "f"
+
+osea que : #fff : es color rojo
+
+ 
+ funciona con : 3,4,6,8
+
+es decir : #fff,#ffff,#ffffff,#ffffffff
+
+ 
+ 
+ aqui la pagina de la lista de colores :   https://htmlcolorcodes.com/es/
+
+ 
+ 
+ 
+  
+ 
+ 
+#
+FF5733
+R
+255
+G
+87
+B
+51
+H
+11
+S
+80
+L
+60
+C
+0
+M
+66
+Y
+80
+K
+0
+Selector de Color
+Encontrar ese color perfecto con nuestro selector de color y descubrir bellas
+ armonías de color, tintes, matices y tonos; códigos de color
+ de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS.
+
+DALE UNA VUELTA!
+Tabla de Colores
+Buscando algunas ya grandes combinaciones? Nuestras tabla de color con colores
+ de diseño de planos, Esquema de diseño de Materiales de Google
+ y la red clásica paleta de colores segura, todos con códigos de color hex.
+
+VER TODOS LOS GRÁFICOS!
+IndianRed	#CD5C5C	rgb(205, 92, 92)
+LightCoral	#F08080	rgb(240, 128, 128)
+Salmon	#FA8072	rgb(250, 128, 114)
+DarkSalmon	#E9967A	rgb(233, 150, 122)
+LightSalmon	#FFA07A	rgb(255, 160, 122)
+Nombres de Colores
+No recuerdo los 140 nombres de colores HTML? Tenemos todo lo que ecesitas,
+ échale un vistazo a nuestra guía para obtener una referencia rápida de todos
+ los nombres de colores HTML agrupadas por colores.
+
+NAVEGAR POR LA LISTA COMPLETA!
+HTML & CSS Tutorials
+HTML & CSS Tutoriales
+Sólo a partir de su sitio web o necesita una actualización? Nuestra sección 
+de tutoriales tiene algo para todos, desde guías de HTML y CSS de colores
+ básicos de las técnicas más avanzadas en SCSS.
+
+EMPEZAR A APRENDER!
+Web Resources
+Recursos de Diseño Web
+Nuestras herramientas favoritas y trucos de alrededor de la web, incluida
+ la mejor paleta de colores generadores, fotos de sitios gratis, búsqueda
+ de la imagen mediante la utilización de los colores, y mucho más.
+
+CONSULTE LAS GUÍAS!
+¿Cuáles son los códigos de color de HTML ?
+Los códigos de colores son formas de representar los colores que vemos
+ cada día en un formato que un ordenador puede interpretar y mostrar.
+ Comúnmente utilizado en sitios web y otras aplicaciones de software,
+ hay una gran variedad de formatos, incluidos los códigos de color HEX,
+ RGB y HSL valores y nombres de colores HTML, entre otros.
+
+
+LOS CÓDIGOS DE COLOR HEX
+Los más populares son los códigos Hex de color; tres bytes números
+ hexadecimal (es decir, compuesto de seis dígitos), con cada byte,
+ o de un par de caracteres en el código Hex, que representa la intensidad 
+de rojo, verde y azul en el color, respectivamente.
+
+#XXXXXX
+Valores de bytes código Hex de 00, que es la más baja intensidad de un
+ color, a lo que representa el nivel más alto de intensidad. El color
+ blanco, por ejemplo, se obtienen por la mezcla de los tres colores 
+primarios en su máxima intensidad, y en el código Hex de color de #FFFFFF.
+
+#FFFFFF
+Negro, la ausencia de cualquier color de la pantalla, es todo lo
+ contrario, con cada color que se muestra en su nivel más bajo posible
+ intensidad y un código de color Hex #000000.
+
+#000000
+Descripción de los conceptos básicos de notación Hex de color código
+ podemos crear muy fácilmente los colores grises, puesto que consisten
+ de igual intensidad de cada color:
+
+#454545
+#999999
+Los tres colores primarios, rojo, verde y azul, están elaborados con 
+una mezcla la mayor intensidad del color deseado con la menor intensidad
+ de los otros dos:
+
+#FF0000
+#00FF00
+#0000FF
+Con los navegadores modernos para toda la gama de color de 24 bits,
+ 16.777.216 colores diferentes posibilidades. Utilice nuestro selector
+ de color para explorar todas 16,7 millones de ellos, o si esto es 
+demasiado muchos, eche un vistazo a nuestras tablas de colores para
+ la selección de las paletas se centró en diseño plano, diseño de Materiales
+ y colores seguros web.
+
+Lista de códigos de colores HTML comunes
+COLOR	NAME	HEX CODE	RGB CODE
+White	#FFFFFF	rgb(255, 255, 255)
+Silver	#C0C0C0	rgb(192, 192, 192)
+Gray	#808080	rgb(128, 128, 128)
+Black	#000000	rgb(0, 0, 0)
+Red	#FF0000	rgb(255, 0, 0)
+Maroon	#800000	rgb(128, 0, 0)
+Yellow	#FFFF00	rgb(255, 255, 0)
+Olive	#808000	rgb(128, 128, 0)
+Lime	#00FF00	rgb(0, 255, 0)
+Green	#008000	rgb(0, 128, 0)
+Aqua	#00FFFF	rgb(0, 255, 255)
+Teal	#008080	rgb(0, 128, 128)
+Blue	#0000FF	rgb(0, 0, 255)
+Navy	#000080	rgb(0, 0, 128)
+Fuchsia	#FF00FF	rgb(255, 0, 255)
+Purple	#800080	rgb(128, 0, 128)
+
+
+-------------------------------------------------------------------------
+
+segunda pagina :   https://www.mclibre.org/consultar/htmlcss/css/css-color.html
+
+
+
+
+
+
+
+CSS: Colores
+Home Principio de la página
+
+CSS: Colores
+Convertidor
+Color de texto: color
+Opacidad: opacity
+Códigos RGB
+Códigos HSL
+Códigos HWB
+Transparencia alfa
+Nombres HTML 3.2
+Nombres X11 / SVG
+Nombres del sistema
+Notación clásica
+En esta lección se comentan las propiedades CSS y los códigos de colores definidos en la recomendación CSS Color Module Level 3, publicada en enero de 2022, y en la recomendación CSS Color Module Level 4, actualmente (octubre de 2022) en elaboración.
+
+Estas propiedades permiten establecer el color y transparencia del texto o del fondo del elemento.
+
+En esta lección se explica cómo expresar colores mediante códigos numéricos (RGB, HSL o HWB, utilizando la notación funcional, sin comas) o mediante nombres de colores (básicos, extendidos o de sistema). En la lección Esquemas de colores se explican alguna de las formas de obtener combinaciones de colores visualmente atractivas.
+
+Convertidor de código de colores
+El siguiente convertidor permite obtener varios formatos de códigos de color a partir de alguno de ellos: RGB (en formato decimal o hexadecimal), HSL, HWB y los nombres de colores SVG, formatos que se comentan en esta lección.
+
+Convertidor de códigos de colores
+Escriba aquí un código de color:
+
+Color: 
+
+
+HWB:	-----
+RGB decimal:	-----
+RGB hexadecimal:	-----
+HSL:	-----
+nombre SVG:	-----
+Color del texto: colorcolor
+Recomendación CSS3 Mozilla Developer Network
+La propiedad color permite establecer el color del texto. Las formas de expresar colores se comentan en la lección CSS: Colores.
+
+h1 {
+  color: magenta;
+}
+
+p {
+  color: blue;
+}
+
+Enlace externo
+Opacidad (transparencia): opacityopacity
+Recomendación CSS3 Mozilla Developer Network
+La propiedad opacity permite hacer que un elemento sea parcialmente transparente. El valor de esta propiedad debe ser un valor decimal entre 0 y 1 (el valor 0 hace que el elemento sea completamente transparente y el valor 1 hace que el elemento sea completamente opaco).
+
+Si un elemento parcialmente transparente se superpone a otro elemento de otro color, el navegador mezcla los colores de los elementos, como muestra el siguiente ejemplo:
+
+p.p1 {
+  background-color: yellow;
+}
+
+p.p2 {
+  background-color: red;
+  color: white;
+  opacity: 0.5;
+}
+
+/* En el ejemplo también se utilizan propiedades
+de posicionamiento que no aparecen aquí. */
+
+Enlace externo
+Códigos de colores RGBcolores RGB
+Recomendación CSS3 Mozilla Developer Network
+Los códigos de colores RGB ya formaban parte de la recomendación CSS 1 (diciembre de 1996).
+
+Las pantallas de ordenador consiguen los colores mezclando tres colores básicos (rojo, verde y azul). Cada color admite 256 niveles de intensidad, lo que hace un total de 256 x 256 x 256 = 16.777.216 colores distintos. Para hacer referencia a un color concreto, basta con indicar las intensidades de cada uno de los tres colores básicos.
+
+Los códigos RGB se pueden expresar de distintas formas:
+
+rgb(rojo verde azul), donde rojo, verde y azul son números enteros desde 0 a 255.
+rgb(rojo verde azul), donde rojo, verde y azul son porcentajes desde 0% hasta 100%.
+#RRGGBB, donde RR, GG y BB son números hexadecimales desde 00 hasta FF.
+#RGB, donde R, G y B son números hexadecimales desde 0 hasta F (el navegador transforma esos números en números de dos cifras repitiendo el valor, es decir, F se convierte en FF, 6 en 66, etc.
+Las más utilizadas son la tercera y la primera.
+
+p {
+  background-color: #14B76E;
+}
+
+Enlace externo
+El color negro se consigue con la ausencia de cualquier color, así que su código RGB es rgb(0 0 0), rgb(0% 0% 0%), #000000 o #000.
+
+El color blanco se consigue mezclando los tres colores con la máxima intensidad, así que su código RGB es rgb(255 255 255), rgb(100% 100% 100%), #FFFFFF o #FFF.
+
+Este modelo de color es poco intuitivo. En general, no es fácil acertar la combinación de rojo, verde y azul necesaria para obtener un color concreto, ni tampoco es fácil acertar cómo modificar las tres componentes para obtener un color relacionado con otro (un color poco más claro o más oscuro que otro, por ejemplo).
+
+Cuadros de colores RGB Cuadros de colores RGB Cuadros de colores RGB Cuadros de colores RGB Cuadros de colores RGB Cuadros de colores RGB Cuadros de colores RGB Cuadros de colores RGB Cuadros de colores RGB
+
+El cuadro siguiente permite generar códigos de colores RGB moviendo los deslizadores:
+
+Generador de códigos RGB
+Decimal	Hexadecimal
+Rojo:	
+128	80
+Verde:	
+128	80
+Azul:	
+128	80
+Códigos RGB: #808080 - rgb(128 128 128)
+
+Códigos de colores HSLcolores HSL
+Recomendación CSS3 Mozilla Developer Network
+Los códigos de colores HSL se incorporaron a CSS en la primera edición (junio de 2011) de la recomendación CSS Color Module Level 3.
+
+En el modelo de color HSL el color se define mediante tres valores:
+
+Hue (Matiz) es un entero entre 0 y 360 y recorre todos los colores
+0
+360
+Hue (Matiz)
+
+Saturation (Saturación) es un porcentaje que define la intensidad del color
+Lightness (Luminosidad) es un porcentaje que indica la claridad u oscuridad del color
+p {
+  background-color: hsl(153 80% 40%);
+}
+
+Enlace externo
+El modelo HSL es más intuitivo que el modelo RGB, ya que el color depende únicamente de la componente Matiz y las componentes Saturación y Luminancia permiten aclarar o oscurecer el color.
+
+Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL Cuadros de colores HSL
+
+El cuadro siguiente permite generar colores HSL moviendo los deslizadores:
+
+Valor
+Matiz:	
+180
+Saturación:	
+50%
+Luminosidad:	
+50%
+Código HSL: hsl(180 50% 50%)
+
+Códigos de colores HWBcolores HWB
+Recomendación CSS3 Mozilla Developer Network
+Los códigos de colores HWB se definen en la recomendación CSS Color Module Level 4, actualmente (octubre de 2022) en elaboración.
+
+En el modelo de color HWB el color se define mediante tres valores:
+
+Hue (Matiz) es un entero entre 0 y 360 y recorre todos los colores
+0
+360
+Hue (Matiz)
+
+Whiteness (Blanco) es un porcentaje que indica la cantidad de blanco que se añade al color
+Blackness (Negro) es un porcentaje que indica la cantidad de negro que se añade al color
+Los códigos HWB se expresan:
+
+hwb(matiz blanco negro), donde matiz es un número entero entre 0 y 360 y blanco y negro son porcentajes enteros entre 0% y 100%, sin comas entre ellos.
+p {
+  background-color: hwb(153 10% 30%);
+}
+
+Enlace externo
+Nota: Safari admite el formato HWB desde la versión 15 (septiembre de 2021), Firefox desde la versión 98 (marzo de 2022) y Chrome desde la versión 101 (abril de 2022).
+
+El modelo HWB es más intuitivo que el modelo HSL y su uso probablemente se generalice en el futuro. Como puede observarse en los cuadros siguientes, cuando la suma de las componentes blanco y negro suman más de 100%, el color resultante es un tono de gris.
+
+Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB Cuadros de colores HWB
+
+El cuadro siguiente permite generar colores HWB moviendo los deslizadores:
+
+Valor
+Matiz:	
+180
+Blanco:	
+0%
+Negro:	
+0%
+Código HWB: hwb(180 0% 0%)
+
+Transparencia alfaRGB alfa
+Recomendación CSS3 Mozilla Developer NetworkHSL alfa
+Recomendación CSS3 Mozilla Developer NetworkHWB alfa
+Recomendación CSS3 Mozilla Developer Network
+El canal alfa es un valor numérico que se puede añadir a los colores para expresar que el color tiene cierto grado de transparencia y que se puede ver lo que hay detrás de él. El canal alfa se escribe como porcentaje o como valor decimal entre 0 y 1, en el que el 0 significa completamente transparente y el 1 completamente opaco.
+
+El canal alfa se añade como un cuarto valor separado con una barra de los tres componentes del color rgb(), hsl() o hwb().
+
+El siguiente ejemplo muestra texto con diferentes grados de transparencia. Cuando la transparencia es 0, el texto es invisible porque tiene el mismo color que el fondo, aunque puede verse al seleccionarlo con el ratón.
+
+p {
+  background-color: rgb(255 255 0);
+  color: rgb(255 0 0);
+}
+
+p.a000 { color: rgb(255 0 0 / 0%); }
+
+p.a025 { color: rgb(255 0 0 / 25%); }
+
+p.a050 { color: rgb(255 0 0 / 50%); }
+
+p.a075 { color: rgb(255 0 0 / 75%); }
+
+p.a100 { color: rgb(255 0 0 / 100%); }
+
+Enlace externo
+El cuadro siguiente permite generar colores RGB con transparencia moviendo los deslizadores. Para poder apreciar el funcionamiento de la transparencia, el cuadro muestra tanto dos rectángulos de color superpuestos como un texto en color y con color de fondo:
+
+Generador de códigos RGB con transparencia alfa
+Decimal
+Color trasero / Color de fondo
+Rojo:	
+255
+Verde:	
+255
+Azul:	
+0
+Color delantero / Color de texto
+Rojo:	
+255
+Verde:	
+0
+Azul:	
+0
+Transparencia:	
+0.5
+Códigos RGB: rgb(255 255 0) - rgba(255 0 0 / 0.5)
+
+CON CANAL ALFA 50%
+
+Nombres de colores HTML 3.2colores HTML 3.2
+Recomendación CSS3 Mozilla Developer Network
+En la recomendación HTML 3.2 (aprobada el 14 de enero de 1997) se incluyeron dieciséis nombres de colores: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white y yellow. Estos colores son los colores de la paleta VGA de Windows. La tabla e ilustración siguientes muestran estos 16 colores, sus nombres y códigos RGB.
+
+Color	Nombre	Código RGB		Color	Nombre	Código RGB
+blue	#0000FF			navy	#000080
+fuchsia	#FF00FF			purple	#800080
+red	#FF0000			maroon	#800000
+yellow	#FFFF00			olive	#808000
+lime	#00FF00			green	#008000
+aqua	#00FFFF			teal	#008080
+black	#000000			gray	#808080
+white	#FFFFFF			silver	#C0C0C0
+
+Nombres de colores SVG / X11colores SVG / X11
+Recomendación CSS3 Mozilla Developer Network
+Los códigos de colores SVG (o X11) se incorporaron a CSS en la primera edición (junio de 2011) de la recomendación CSS Color Module Level 3, aunque los navegadores los aceptaban desde mucho antes. Se muestran a continuación los 148 colores, sus nombres y códigos RGB, HSL y HWB.
+
+Notas:
+
+Los nombres de los colores grises están duplicados, incluyendo los términos "gray" o "grey" (DarkGrey/DarkGray, etc). En X11 sólo era válida una de las dos variantes, pero en la recomendación SVG 1.0 ya se admitían ambas variantes.
+Los colores Fuchsia y Magenta son el mismo color y los colores Aqua y Cyan son también el mismo color, por lo que la tabla contiene en realidad 139 colores distintos.
+El color RebeccaPurple se añadió en junio de 2014 en homenaje a la hija de Eric Meyer [ref].
+AliceBlue
+
+#F0F8FF
+
+rgb(240 248 255)
+
+hsl(208 100% 97.1%)
+
+hwb(208 94.2% 0%)
+
+AntiqueWhite
+
+#FAEBD7
+
+rgb(250 235 215)
+
+hsl(34 77.8% 91.2%)
+
+hwb(34 84.4% 2%)
+
+Aqua
+
+#00FFFF
+
+rgb(0 255 255)
+
+hsl(180 100% 50%)
+
+hwb(180 0% 0%)
+
+Aquamarine
+
+#7FFFD4
+
+rgb(127 255 212)
+
+hsl(160 100% 74.9%)
+
+hwb(160 49.8% 0%)
+
+Azure
+
+#F0FFFF
+
+rgb(240 255 255)
+
+hsl(180 100% 97.1%)
+
+hwb(180 94.2% 0%)
+
+Beige
+
+#F5F5DC
+
+rgb(245 245 220)
+
+hsl(60 55.6% 91.2%)
+
+hwb(60 86.3% 3.9%)
+
+Bisque
+
+#FFE4C4
+
+rgb(255 228 196)
+
+hsl(32 100% 88.4%)
+
+hwb(32 76.8% 0%)
+
+Black
+
+#000000
+
+rgb(0 0 0)
+
+hsl(0 0% 0%)
+
+hwb(0 0% 100%)
+
+BlanchedAlmond
+
+#FFEBCD
+
+rgb(255 235 205)
+
+hsl(36 100% 90.2%)
+
+hwb(36 80.4% 0%)
+
+Blue
+
+#0000FF
+
+rgb(0 0 255)
+
+hsl(240 100% 50%)
+
+hwb(240 0% 0%)
+
+BlueViolet
+
+#8A2BE2
+
+rgb(138 43 226)
+
+hsl(271 75.9% 52.7%)
+
+hwb(271 16.8% 11.4%)
+
+Brown
+
+#A52A2A
+
+rgb(165 42 42)
+
+hsl(0 59.4% 40.6%)
+
+hwb(0 16.5% 35.3%)
+
+BurlyWood
+
+#DEB887
+
+rgb(222 184 135)
+
+hsl(34 56.9% 70%)
+
+hwb(34 52.9% 12.9%)
+
+CadetBlue
+
+#5F9EA0
+
+rgb(95 158 160)
+
+hsl(182 25.5% 50%)
+
+hwb(182 37.2% 37.2%)
+
+Chartreuse
+
+#7FFF00
+
+rgb(127 255 0)
+
+hsl(90 100% 50%)
+
+hwb(90 0% 0%)
+
+Chocolate
+
+#D2691E
+
+rgb(210 105 30)
+
+hsl(25 75% 47.1%)
+
+hwb(25 11.8% 17.6%)
+
+Coral
+
+#FF7F50
+
+rgb(255 127 80)
+
+hsl(16 100% 65.7%)
+
+hwb(16 31.4% 0%)
+
+CornflowerBlue
+
+#6495ED
+
+rgb(100 149 237)
+
+hsl(218 79.2% 66.1%)
+
+hwb(218 39.3% 7.1%)
+
+Cornsilk
+
+#FFF8DC
+
+rgb(255 248 220)
+
+hsl(48 100% 93.1%)
+
+hwb(48 86.2% 0%)
+
+Crimson
+
+#DC143C
+
+rgb(220 20 60)
+
+hsl(348 83.3% 47.1%)
+
+hwb(348 7.9% 13.7%)
+
+Cyan
+
+#00FFFF
+
+rgb(0 255 255)
+
+hsl(180 100% 50%)
+
+hwb(180 0% 0%)
+
+DarkBlue
+
+#00008B
+
+rgb(0 0 139)
+
+hsl(240 100% 27.3%)
+
+hwb(240 0% 45.4%)
+
+DarkCyan
+
+#008B8B
+
+rgb(0 139 139)
+
+hsl(180 100% 27.3%)
+
+hwb(180 0% 45.4%)
+
+DarkGoldenrod
+
+#B8860B
+
+rgb(184 134 11)
+
+hsl(43 88.7% 38.2%)
+
+hwb(43 4.3% 27.9%)
+
+DarkGray
+
+#A9A9A9
+
+rgb(169 169 169)
+
+hsl(0 0% 66.3%)
+
+hwb(0 66.3% 33.7%)
+
+DarkGreen
+
+#006400
+
+rgb(0 100 0)
+
+hsl(120 100% 19.6%)
+
+hwb(120 0% 60.8%)
+
+DarkGrey
+
+#A9A9A9
+
+rgb(169 169 169)
+
+hsl(0 0% 66.3%)
+
+hwb(0 66.3% 33.7%)
+
+DarkKhaki
+
+#BDB76B
+
+rgb(189 183 107)
+
+hsl(56 38.3% 58%)
+
+hwb(56 41.9% 25.9%)
+
+DarkMagenta
+
+#8B008B
+
+rgb(139 0 139)
+
+hsl(300 100% 27.3%)
+
+hwb(300 0% 45.4%)
+
+DarkOliveGreen
+
+#556B2F
+
+rgb(85 107 47)
+
+hsl(82 39% 30.2%)
+
+hwb(82 18.4% 58%)
+
+DarkOrange
+
+#FF8C00
+
+rgb(255 140 0)
+
+hsl(33 100% 50%)
+
+hwb(33 0% 0%)
+
+DarkOrchid
+
+#9932CC
+
+rgb(153 50 204)
+
+hsl(280 60.6% 49.8%)
+
+hwb(280 19.6% 20%)
+
+DarkRed
+
+#8B0000
+
+rgb(139 0 0)
+
+hsl(0 100% 27.3%)
+
+hwb(0 0% 45.4%)
+
+DarkSalmon
+
+#E9967A
+
+rgb(233 150 122)
+
+hsl(15 71.6% 69.6%)
+
+hwb(15 47.8% 8.6%)
+
+DarkSeaGreen
+
+#8FBC8F
+
+rgb(143 188 143)
+
+hsl(120 25.1% 64.9%)
+
+hwb(120 56.1% 26.3%)
+
+DarkSlateBlue
+
+#483D8B
+
+rgb(72 61 139)
+
+hsl(248 39% 39.2%)
+
+hwb(248 23.9% 45.5%)
+
+DarkSlateGray
+
+#2F4F4F
+
+rgb(47 79 79)
+
+hsl(180 25.4% 24.7%)
+
+hwb(180 18.4% 69%)
+
+DarkSlateGrey
+
+#2F4F4F
+
+rgb(47 79 79)
+
+hsl(180 25.4% 24.7%)
+
+hwb(180 18.4% 69%)
+
+DarkTurquoise
+
+#00CED1
+
+rgb(0 206 209)
+
+hsl(181 100% 41%)
+
+hwb(181 0% 18%)
+
+DarkViolet
+
+#9400D3
+
+rgb(148 0 211)
+
+hsl(282 100% 41.4%)
+
+hwb(282 0% 17.2%)
+
+DeepPink
+
+#FF1493
+
+rgb(255 20 147)
+
+hsl(328 100% 53.9%)
+
+hwb(328 7.8% 0%)
+
+DeepSkyBlue
+
+#00BFFF
+
+rgb(0 191 255)
+
+hsl(195 100% 50%)
+
+hwb(195 0% 0%)
+
+DimGray
+
+#696969
+
+rgb(105 105 105)
+
+hsl(0 0% 41.2%)
+
+hwb(0 41.2% 58.8%)
+
+DimGrey
+
+#696969
+
+rgb(105 105 105)
+
+hsl(0 0% 41.2%)
+
+hwb(0 41.2% 58.8%)
+
+DodgerBlue
+
+#1E90FF
+
+rgb(30 144 255)
+
+hsl(210 100% 55.9%)
+
+hwb(210 11.8% 0%)
+
+FireBrick
+
+#B22222
+
+rgb(178 34 34)
+
+hsl(0 67.9% 41.6%)
+
+hwb(0 13.4% 30.2%)
+
+FloralWhite
+
+#FFFAF0
+
+rgb(255 250 240)
+
+hsl(40 100% 97.1%)
+
+hwb(40 94.2% 0%)
+
+ForestGreen
+
+#228B22
+
+rgb(34 139 34)
+
+hsl(120 60.7% 33.9%)
+
+hwb(120 13.3% 45.5%)
+
+Fuchsia
+
+#FF00FF
+
+rgb(255 0 255)
+
+hsl(300 100% 50%)
+
+hwb(300 0% 0%)
+
+Gainsboro
+
+#DCDCDC
+
+rgb(220 220 220)
+
+hsl(0 0% 86.3%)
+
+hwb(0 86.3% 13.7%)
+
+GhostWhite
+
+#F8F8FF
+
+rgb(248 248 255)
+
+hsl(240 100% 98.6%)
+
+hwb(240 97.2% 0%)
+
+Gold
+
+#FFD700
+
+rgb(255 215 0)
+
+hsl(51 100% 50%)
+
+hwb(51 0% 0%)
+
+Goldenrod
+
+#DAA520
+
+rgb(218 165 32)
+
+hsl(43 74.4% 49%)
+
+hwb(43 12.5% 14.5%)
+
+Gray
+
+#808080
+
+rgb(128 128 128)
+
+hsl(0 0% 50.2%)
+
+hwb(0 50.2% 49.8%)
+
+Green
+
+#008000
+
+rgb(0 128 0)
+
+hsl(120 100% 25.1%)
+
+hwb(120 0% 49.8%)
+
+GreenYellow
+
+#ADFF2F
+
+rgb(173 255 47)
+
+hsl(84 100% 59.2%)
+
+hwb(84 18.4% 0%)
+
+Grey
+
+#808080
+
+rgb(128 128 128)
+
+hsl(0 0% 50.2%)
+
+hwb(0 50.2% 49.8%)
+
+Honeydew
+
+#F0FFF0
+
+rgb(240 255 240)
+
+hsl(120 100% 97.1%)
+
+hwb(120 94.2% 0%)
+
+HotPink
+
+#FF69B4
+
+rgb(255 105 180)
+
+hsl(330 100% 70.6%)
+
+hwb(330 41.2% 0%)
+
+IndianRed
+
+#CD5C5C
+
+rgb(205 92 92)
+
+hsl(0 53.1% 58.2%)
+
+hwb(0 36% 19.6%)
+
+Indigo
+
+#4B0082
+
+rgb(75 0 130)
+
+hsl(275 100% 25.5%)
+
+hwb(275 0% 49%)
+
+Ivory
+
+#FFFFF0
+
+rgb(255 255 240)
+
+hsl(60 100% 97.1%)
+
+hwb(60 94.2% 0%)
+
+Khaki
+
+#F0E68C
+
+rgb(240 230 140)
+
+hsl(54 76.9% 74.5%)
+
+hwb(54 54.9% 5.9%)
+
+Lavender
+
+#E6E6FA
+
+rgb(230 230 250)
+
+hsl(240 66.7% 94.1%)
+
+hwb(240 90.2% 2%)
+
+LavenderBlush
+
+#FFF0F5
+
+rgb(255 240 245)
+
+hsl(340 100% 97.1%)
+
+hwb(340 94.2% 0%)
+
+LawnGreen
+
+#7CFC00
+
+rgb(124 252 0)
+
+hsl(90 100% 49.4%)
+
+hwb(90 0% 1.2%)
+
+LemonChiffon
+
+#FFFACD
+
+rgb(255 250 205)
+
+hsl(54 100% 90.2%)
+
+hwb(54 80.4% 0%)
+
+LightBlue
+
+#ADD8E6
+
+rgb(173 216 230)
+
+hsl(195 53.3% 79%)
+
+hwb(195 67.8% 9.8%)
+
+LightCoral
+
+#F08080
+
+rgb(240 128 128)
+
+hsl(0 78.9% 72.2%)
+
+hwb(0 50.3% 5.9%)
+
+LightCyan
+
+#E0FFFF
+
+rgb(224 255 255)
+
+hsl(180 100% 93.9%)
+
+hwb(180 87.8% 0%)
+
+LightGoldenrodYellow
+
+#FAFAD2
+
+rgb(250 250 210)
+
+hsl(60 80% 90.2%)
+
+hwb(60 82.4% 2%)
+
+LightGray
+
+#D3D3D3
+
+rgb(211 211 211)
+
+hsl(0 0% 82.7%)
+
+hwb(0 82.7% 17.3%)
+
+LightGreen
+
+#90EE90
+
+rgb(144 238 144)
+
+hsl(120 73.4% 74.9%)
+
+hwb(120 56.5% 6.7%)
+
+LightGrey
+
+#D3D3D3
+
+rgb(211 211 211)
+
+hsl(0 0% 82.7%)
+
+hwb(0 82.7% 17.3%)
+
+LightPink
+
+#FFB6C1
+
+rgb(255 182 193)
+
+hsl(351 100% 85.7%)
+
+hwb(351 71.4% 0%)
+
+LightSalmon
+
+#FFA07A
+
+rgb(255 160 122)
+
+hsl(17 100% 73.9%)
+
+hwb(17 47.8% 0%)
+
+LightSeaGreen
+
+#20B2AA
+
+rgb(32 178 170)
+
+hsl(177 69.5% 41.2%)
+
+hwb(177 12.6% 30.2%)
+
+LightSkyBlue
+
+#87CEFA
+
+rgb(135 206 250)
+
+hsl(203 92% 75.5%)
+
+hwb(203 53% 2%)
+
+LightSlateGray
+
+#778899
+
+rgb(119 136 153)
+
+hsl(210 14.3% 53.3%)
+
+hwb(210 46.6% 40%)
+
+LightSlateGrey
+
+#778899
+
+rgb(119 136 153)
+
+hsl(210 14.3% 53.3%)
+
+hwb(210 46.6% 40%)
+
+LightSteelBlue
+
+#B0C4DE
+
+rgb(176 196 222)
+
+hsl(214 41.1% 78%)
+
+hwb(214 69% 13%)
+
+LightYellow
+
+#FFFFE0
+
+rgb(255 255 224)
+
+hsl(60 100% 93.9%)
+
+hwb(60 87.8% 0%)
+
+Lime
+
+#00FF00
+
+rgb(0 255 0)
+
+hsl(120 100% 50%)
+
+hwb(120 0% 0%)
+
+LimeGreen
+
+#32CD32
+
+rgb(50 205 50)
+
+hsl(120 60.8% 50%)
+
+hwb(120 19.6% 19.6%)
+
+Linen
+
+#FAF0E6
+
+rgb(250 240 230)
+
+hsl(30 66.7% 94.1%)
+
+hwb(30 90.2% 2%)
+
+Magenta
+
+#FF00FF
+
+rgb(255 0 255)
+
+hsl(300 100% 50%)
+
+hwb(300 0% 0%)
+
+Maroon
+
+#800000
+
+rgb(128 0 0)
+
+hsl(0 100% 25.1%)
+
+hwb(0 0% 49.8%)
+
+MediumAquamarine
+
+#66CDAA
+
+rgb(102 205 170)
+
+hsl(160 50.7% 60.2%)
+
+hwb(160 40% 19.6%)
+
+MediumBlue
+
+#0000CD
+
+rgb(0 0 205)
+
+hsl(240 100% 40.2%)
+
+hwb(240 0% 19.6%)
+
+MediumOrchid
+
+#BA55D3
+
+rgb(186 85 211)
+
+hsl(288 58.9% 58%)
+
+hwb(288 33.3% 17.3%)
+
+MediumPurple
+
+#9370DB
+
+rgb(147 112 219)
+
+hsl(260 59.8% 64.9%)
+
+hwb(260 43.9% 14.1%)
+
+MediumSeaGreen
+
+#3CB371
+
+rgb(60 179 113)
+
+hsl(147 49.8% 46.9%)
+
+hwb(147 23.5% 29.7%)
+
+MediumSlateBlue
+
+#7B68EE
+
+rgb(123 104 238)
+
+hsl(248 79.8% 67.1%)
+
+hwb(248 40.8% 6.6%)
+
+MediumSpringGreen
+
+#00FA9A
+
+rgb(0 250 154)
+
+hsl(157 100% 49%)
+
+hwb(157 0% 2%)
+
+MediumTurquoise
+
+#48D1CC
+
+rgb(72 209 204)
+
+hsl(178 59.8% 55.1%)
+
+hwb(178 28.2% 18%)
+
+MediumVioletRed
+
+#C71585
+
+rgb(199 21 133)
+
+hsl(322 80.9% 43.1%)
+
+hwb(322 8.2% 22%)
+
+MidnightBlue
+
+#191970
+
+rgb(25 25 112)
+
+hsl(240 63.5% 26.9%)
+
+hwb(240 9.8% 56%)
+
+MintCream
+
+#F5FFFA
+
+rgb(245 255 250)
+
+hsl(150 100% 98%)
+
+hwb(150 96% 0%)
+
+MistyRose
+
+#FFE4E1
+
+rgb(255 228 225)
+
+hsl(6 100% 94.1%)
+
+hwb(6 88.2% 0%)
+
+Moccasin
+
+#FFE4B5
+
+rgb(255 228 181)
+
+hsl(38 100% 85.5%)
+
+hwb(38 71% 0%)
+
+NavajoWhite
+
+#FFDEAD
+
+rgb(255 222 173)
+
+hsl(36 100% 83.9%)
+
+hwb(36 67.8% 0%)
+
+Navy
+
+#000080
+
+rgb(0 0 128)
+
+hsl(240 100% 25.1%)
+
+hwb(240 0% 49.8%)
+
+OldLace
+
+#FDF5E6
+
+rgb(253 245 230)
+
+hsl(39 85.2% 94.7%)
+
+hwb(39 90.2% 0.8%)
+
+Olive
+
+#808000
+
+rgb(128 128 0)
+
+hsl(60 100% 25.1%)
+
+hwb(60 0% 49.8%)
+
+OliveDrab
+
+#6B8E23
+
+rgb(107 142 35)
+
+hsl(80 60.5% 34.7%)
+
+hwb(80 13.7% 44.3%)
+
+Orange
+
+#FFA500
+
+rgb(255 165 0)
+
+hsl(39 100% 50%)
+
+hwb(39 0% 0%)
+
+OrangeRed
+
+#FF4500
+
+rgb(255 69 0)
+
+hsl(16 100% 50%)
+
+hwb(16 0% 0%)
+
+Orchid
+
+#DA70D6
+
+rgb(218 112 214)
+
+hsl(302 58.9% 64.7%)
+
+hwb(302 43.9% 14.5%)
+
+PaleGoldenrod
+
+#EEE8AA
+
+rgb(238 232 170)
+
+hsl(55 66.7% 80%)
+
+hwb(55 66.7% 6.7%)
+
+PaleGreen
+
+#98FB98
+
+rgb(152 251 152)
+
+hsl(120 92.5% 79%)
+
+hwb(120 59.6% 1.6%)
+
+PaleTurquoise
+
+#AFEEEE
+
+rgb(175 238 238)
+
+hsl(180 64.9% 81%)
+
+hwb(180 68.7% 6.7%)
+
+PaleVioletRed
+
+#DB7093
+
+rgb(219 112 147)
+
+hsl(340 59.8% 64.9%)
+
+hwb(340 43.9% 14.1%)
+
+PapayaWhip
+
+#FFEFD5
+
+rgb(255 239 213)
+
+hsl(37 100% 91.8%)
+
+hwb(37 83.6% 0%)
+
+PeachPuff
+
+#FFDAB9
+
+rgb(255 218 185)
+
+hsl(28 100% 86.3%)
+
+hwb(28 72.6% 0%)
+
+Peru
+
+#CD853F
+
+rgb(205 133 63)
+
+hsl(30 58.7% 52.5%)
+
+hwb(30 24.6% 19.6%)
+
+Pink
+
+#FFC0CB
+
+rgb(255 192 203)
+
+hsl(350 100% 87.6%)
+
+hwb(350 75.2% 0%)
+
+Plum
+
+#DDA0DD
+
+rgb(221 160 221)
+
+hsl(300 47.3% 74.7%)
+
+hwb(300 62.7% 13.3%)
+
+PowderBlue
+
+#B0E0E6
+
+rgb(176 224 230)
+
+hsl(187 51.9% 79.6%)
+
+hwb(187 69% 9.8%)
+
+Purple
+
+#800080
+
+rgb(128 0 128)
+
+hsl(300 100% 25.1%)
+
+hwb(300 0% 49.8%)
+
+RebeccaPurple
+
+#663399
+
+rgb(102 51 153)
+
+hsl(270 50% 40%)
+
+hwb(270 20% 40%)
+
+Red
+
+#FF0000
+
+rgb(255 0 0)
+
+hsl(0 100% 50%)
+
+hwb(0 0% 0%)
+
+RosyBrown
+
+#BC8F8F
+
+rgb(188 143 143)
+
+hsl(0 25.1% 64.9%)
+
+hwb(0 56.1% 26.3%)
+
+RoyalBlue
+
+#4169E1
+
+rgb(65 105 225)
+
+hsl(225 72.7% 56.9%)
+
+hwb(225 25.6% 11.8%)
+
+SaddleBrown
+
+#8B4513
+
+rgb(139 69 19)
+
+hsl(25 75.9% 31%)
+
+hwb(25 7.5% 45.5%)
+
+Salmon
+
+#FA8072
+
+rgb(250 128 114)
+
+hsl(6 93.2% 71.4%)
+
+hwb(6 44.7% 1.9%)
+
+SandyBrown
+
+#F4A460
+
+rgb(244 164 96)
+
+hsl(28 87.1% 66.7%)
+
+hwb(28 37.7% 4.3%)
+
+SeaGreen
+
+#2E8B57
+
+rgb(46 139 87)
+
+hsl(146 50.3% 36.3%)
+
+hwb(146 18% 45.4%)
+
+Seashell
+
+#FFF5EE
+
+rgb(255 245 238)
+
+hsl(25 100% 96.7%)
+
+hwb(25 93.4% 0%)
+
+Sienna
+
+#A0522D
+
+rgb(160 82 45)
+
+hsl(19 56.1% 40.2%)
+
+hwb(19 17.6% 37.2%)
+
+Silver
+
+#C0C0C0
+
+rgb(192 192 192)
+
+hsl(0 0% 75.3%)
+
+hwb(0 75.3% 24.7%)
+
+SkyBlue
+
+#87CEEB
+
+rgb(135 206 235)
+
+hsl(197 71.4% 72.5%)
+
+hwb(197 52.9% 7.9%)
+
+SlateBlue
+
+#6A5ACD
+
+rgb(106 90 205)
+
+hsl(248 53.5% 57.8%)
+
+hwb(248 35.2% 19.6%)
+
+SlateGray
+
+#708090
+
+rgb(112 128 144)
+
+hsl(210 12.6% 50.2%)
+
+hwb(210 43.9% 43.5%)
+
+SlateGrey
+
+#708090
+
+rgb(112 128 144)
+
+hsl(210 12.6% 50.2%)
+
+hwb(210 43.9% 43.5%)
+
+Snow
+
+#FFFAFA
+
+rgb(255 250 250)
+
+hsl(0 100% 99%)
+
+hwb(0 98% 0%)
+
+SpringGreen
+
+#00FF7F
+
+rgb(0 255 127)
+
+hsl(150 100% 50%)
+
+hwb(150 0% 0%)
+
+SteelBlue
+
+#4682B4
+
+rgb(70 130 180)
+
+hsl(207 44% 49%)
+
+hwb(207 27.4% 29.4%)
+
+Tan
+
+#D2B48C
+
+rgb(210 180 140)
+
+hsl(34 43.7% 68.6%)
+
+hwb(34 54.9% 17.7%)
+
+Teal
+
+#008080
+
+rgb(0 128 128)
+
+hsl(180 100% 25.1%)
+
+hwb(180 0% 49.8%)
+
+Thistle
+
+#D8BFD8
+
+rgb(216 191 216)
+
+hsl(300 24.3% 79.8%)
+
+hwb(300 74.9% 15.3%)
+
+Tomato
+
+#FF6347
+
+rgb(255 99 71)
+
+hsl(9 100% 63.9%)
+
+hwb(9 27.8% 0%)
+
+Turquoise
+
+#40E0D0
+
+rgb(64 224 208)
+
+hsl(174 72.1% 56.5%)
+
+hwb(174 25.1% 12.1%)
+
+Violet
+
+#EE82EE
+
+rgb(238 130 238)
+
+hsl(300 76.1% 72.2%)
+
+hwb(300 51% 6.6%)
+
+Wheat
+
+#F5DEB3
+
+rgb(245 222 179)
+
+hsl(39 76.7% 83.1%)
+
+hwb(39 70.1% 3.9%)
+
+White
+
+#FFFFFF
+
+rgb(255 255 255)
+
+hsl(0 0% 100%)
+
+hwb(0 100% 0%)
+
+WhiteSmoke
+
+#F5F5F5
+
+rgb(245 245 245)
+
+hsl(0 0% 96.1%)
+
+hwb(0 96.1% 3.9%)
+
+Yellow
+
+#FFFF00
+
+rgb(255 255 0)
+
+hsl(60 100% 50%)
+
+hwb(60 0% 0%)
+
+YellowGreen
+
+#9ACD32
+
+rgb(154 205 50)
+
+hsl(80 60.8% 50%)
+
+hwb(80 19.6% 19.6%)
+
+Nombres de colores del sistemaColores de sistema
+Recomendación CSS4 Mozilla Developer Network
+Los colores del sistema se introdujeron en la recomendación CSS 2 y hacían referencia a los colores utilizados en los elementos del interfaz del sistema operativo. En la primera edición de la recomendación CSS Color Module Level 3 (junio 2011) todos estos nombres pasaron a considerarse obsoletos, en favor de la propiedad appearance definida únicamente para elementos de formularios en la futura recomendación CSS 4: Interfaz de usuario básico, actualmente (octubre de 2022) en elaboración.
+
+Desde noviembre de 2019, la futura recomendación CSS Color Module Level 4, actualmente (octubre de 2022) en elaboración, incluye una lista distinta de colores de sistema, que hacen referencia a los colores predeterminados de elementos de las páginas web y a los que afecta el esquema de colores (claro u oscuro) del sistema operativo. La lista de colores de sistema es la siguiente:
+
+Color (en modo claro)	Color (en modo oscuro)	Nombre	Concepto	
+Canvas	Fondo de la aplicación o de los documentos	
+CanvasText	Texto de la aplicación o de los documentos	
+LinkText	Texto de los enlaces todavía no visitados	
+VisitedText	Texto de los enlaces ya visitados	
+ActiveText	Texto de los enlaces activos	
+ButtonFace	Fondo de los botones	
+ButtonText	Texto de los botones	
+ButtonBorder	Borde de los botones	
+Field	Fondo de los campos de texto de formularios	
+FieldText	Texto de los campos de texto de formularios	
+Highlight	Fondo del texto seleccionado	
+HighlightText	Texto seleccionado	
+SelectedItem	Fondo de los elementos seleccionados (por ejemplo una casilla de verificación de un formulario)	
+SelectedItemText	Texto de los elementos seleccionados	
+Mark	Fondo de un texto marcado de forma especial	
+MarkText	Texto marcado de forma especial	
+GrayText	Texto deshabilitado	
+AccentColor	Fondo de controles del interfaz de usuario con foco	
+AccentColorText	Texto de controles del interfaz de usuario con foco	
+Notación clásica
+La futura recomendación CSS Color Module Level 4, actualmente (octubre de 2022) en elaboración, ha adoptado la notación funcional (sin comas) para expresar los colores, notación que se utiliza en los apartados anteriores de esta lección. Firefox admite la notación funcional desde la versión 52 (marzo de 2017), Chrome desde la versión 65 (marzo de 2018) y Safari desde la versión 12.1 (marzo de 2019).
+
+En las recomendaciones CSS 2 y CSS Color Module Level 3 los tres componentes de los códigos de color expresados mediante las funciones rgb() y hsl() se separaban mediante comas. Esta notación se puede seguir utilizando, como muestra el siguiente ejemplo:
+
+p {
+  background-color: rgb(20, 183, 110);
+}
+
+Enlace externo
+En las recomendaciones CSS 2 y CSS Color Module Level 3 los colores con transparencia se expresaban mediante las funciones rgba() y hsla(), en la que los cuatro valores se separaban mediante comas. Estas funciones se pueden seguir utilizando, como muestra el siguiente ejemplo:
+
+p {
+  background-color: rgb(255, 255, 0);
+  color: rgba(255, 0, 0, 50%);
+}
+
+Enlace externo
+Pero las nuevas funciones (como hwb()) sólo admiten la notación funcional, como muestra el siguiente ejemplo:
+
+Incorrecto
+p {
+  background-color: hwb(60, 0%, 0%);
+  color: hwb(0, 0%, 0%, 50%);
+}

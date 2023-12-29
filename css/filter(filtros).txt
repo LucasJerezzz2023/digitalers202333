@@ -1,0 +1,44 @@
+
+ 
+  filter:
+ 
+ 
+-------------------------------- 
+ FORMULA	
+
+ por ejemplo:
+ 
+  img {
+   filter: blur(10px) ;
+}
+
+desenfoca 10px a la imagen
+
+
+----------------------------------------
+ 
+   none  : ninguno
+  
+   blur(px)   :    desenfocar
+  
+   brightness   :   brillo    (0,0.5,0.7,1,5,10,etc) tambien podemos darle %
+ 
+   contrast(number or %)  :  contraste    (0,0.5,0.7,1,5,10,etc)  tambien podemos darle %
+  
+   drop-shadow(medidas)  :  sombra del borde de la imagen (10px 10px 5px #000)
+ 
+   grayscale(%)   :    filtro en blanco y negro  (1,0,1.5,etc)
+ 
+   hue-rotate(deg)  :  rotar la gama de colores,  se maneja con: grados,radianes y gradianes:
+                       grados(40deg) 
+  
+   invert(%)   :   invertir los colores :  (10%,50%,100%,etc) esto equivale a los colores
+                    (255,255,255) (rojo,azul,verde)
+ 
+   opacity(%)  :  es la opacidad   (0,0.3,0.5,1,etc)
+ 
+   saturate(%) :  satura los colores,es decir los hace mas fuertes,  (20%,50%,100%,etc)
+ 
+   sepla(%)  :   es un filtro marron oscuro  (1,10,50,100)
+ 
+   url("filtres.svg#filter-id");

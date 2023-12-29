@@ -1,0 +1,68 @@
+5)------------------------------->UNIDADES<---------------------------------------------
+
+
+
+en css tenemos 2 unidades de medidas,las relativas y fijas
+las que son relativas,son las que dependen de algo las que 
+son variables y las que son fijas son fijas,por ejemplo,los 
+pixeles,milimetros,los puntos,los centimetros
+
+----------MEDIDAS FIJAS--------------
+
+font-size: cambia el tamaño de la letra
+
+por eje:
+
+font-size: 30px; pixeles
+font-size: 30cm; centimetros
+font-size: 30mm; milimetros
+font-size: 30pt; son puntos
+----------------------
+
+-------------MEDIDAS RELATIVAS----------
+
+ LAS MEDIDAS RELATIVAS SON" REM " Y " EM " 
+
+font-size: 5EM;     1 EM SON 16 PIXELES OSEA QUE 
+16 PIXELES EQUIVALEN A 80PX(PIXELES) ESTO ES POR DEFECTO
+
+PERO NOSOTROS LE PODEMOS CAMBIAR ESO,CAMBIANDO EL TAMAÑO DEL 
+CONTENEDOR,Y NO SOLO CON EL "FONT-SIZE" SINO CON CUALQUIER 
+PROPIEDAD QUE TRABAJE CON UNIDAD DE MEDIDA.
+
+POR EJEMPLO:
+
+
+
+
+<div class="contact-form">  <----------- ESTE ES EL CONTENEDOR         
+     <h2 class="contact-forwm__h2">hola como estas</h2> <----ESTE ES LA ETIQUETA
+                                                         QUE LE DAREMOS LA PROPIEDAD
+       
+</div>
+
+
+      EN CSS
+
+.contac-form {         
+       font-size: 20px;    <-----CONTENEDOR
+}
+
+.contact-form__h2 {
+          font-size: 5em; <-----PROPIEADAD
+}
+
+
+entonces la propiedad osea los "5em" pasarian
+a equivaler "100px" porque le cambiamos la capacidad del 
+contenedor osea los "20px" y asi funciona con todas las pro
+piedades como: padding,margin,left,button,etc.
+-------------
+
+ ahora veremos viewport widht y heght,estas medidas lo que
+hacen es ocupar todo el ancho de la pantalla,
+osea el dispositivo tiene 1280x220 y 100 viewport,100 viewport
+widght van a hacer igual al ancho total y 100 viewport height
+van a hacer igual al largo total
+
+-------------------------------------------------------------

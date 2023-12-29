@@ -1,0 +1,15 @@
+
+ en html:
+
+<!--texto-->
+ 
+  ejemplo para comentar:
+
+en css
+
+/* h1 {
+  backround-color: red; 
+} */
+
+de esta forma no se vera en la pagina sino que solo pa podremos ver nosotros 
+con visual studio code o otro programa.

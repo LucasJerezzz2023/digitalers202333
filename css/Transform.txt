@@ -1,0 +1,32 @@
+ 
+ 
+ transform:
+
+es una propiedad que nos permite transformar el objeto,transformarlo de 
+varias formas,
+las transformaciones reciben funciones
+
+las transformaciones lo que hacen es transformar el elemento,el objeto,etc
+lo transforma de varias formas
+ 
+ la 1: transladandolo de un lado para el otro,de arriva para abajo,de adentro
+hacia afuera tan simple como eso lo desliza y lo desplaza 
+
+
+ 
+ transform: translate X(x) - translate Y(y) translate(x - x,y) (si usamos porcentajes,
+son porcentajes relativos al elemento) - recomendado para animar
+
+ transform: scale(xy - x,y) - scaleX(x) - scale Y(y)
+ 
+ transform: rotate(angleUnit) - rotate X(angleUnit) - rotate Z(angleUnit) - rotate 3D(angle
+Unit) || angleUnit - deg - grad - rad - turn
+ 
+ traansform: skew(angleUnit)
+ 
+ 
+ 
+ https://www.w3schools.com/cssref/css3_pr_transform.asp
+
+
+

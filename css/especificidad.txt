@@ -1,0 +1,110 @@
+(3)--------------> ESPECIFICIDAD<-----------------------------------------------------------        
+
+
+con la especificidad podemos darle prioridad a a un elemento 
+entendiendo esta logica:
+
+    
+         ------------------
+          ¡¡importante!!
+         -------------------   
+           estilo en linea
+         ------------------
+           identificadores
+         ------------------
+         I     clases       I
+         I                  I
+         I   pseudo-clases  I    <--------ESTOS ESTAN EN EL MISMO NIVEL DE 
+         I                  I             JERARQUIA,A
+         I    atributos     I
+         I                  I
+         I  --------------- I
+              
+             ELEMENTOS
+  
+          PSEUDO-ELEMENTOS
+         ------------------
+
+
+EL IMPORTANT LE GANA A TODOS
+
+--------------------------------
+ESTILO EN LINEA: STYLE="COLOR:RED"
+identificadores: id se usa" # " en css
+clases: class="x"
+pseudo clases:                       en css ponemos,"hover" por eje: h2:hover{
+color:red;                                                               color:red;
+                                                                          }
+atributos: usamos: [ ]  en css seria: [xd123="que"]{
+elemento: <h2><h1><p> etc                           color:red;
+                                                    }                                         
+
+
+-------------------
+QUE ES LA CASCADA?
+
+es cuando seleccionamos 2 atributos de la misma 
+por ejemplo: 2 clases o 2 identificadores etc
+
+<h1 class="estilo-1">mi primer h1</h1>
+
+y en css le queremos dar un color
+
+.estilo.1{
+   color: red;
+}
+
+pero luego nos arrepentimos y queremos cambiar
+por un color azul
+
+.estilo.1{
+   color: azul;
+}
+
+ahi le va a dar prioridad al color azula
+porque son 2 clases de la misma jerarquia
+es decir 2 clases
+
+pero si por ejemplo tengo un elemento ya sea "<h1>"
+y una clase" class="xd" el color lo cambiara al que
+tenga un rango mas grande osea "clases" esta mas arriva 
+que "elemento" te puedes fijar en el cuadro de especifica
+dores
+
+por eje:
+
+con css
+
+.estilo.1{         ----------este es por clase
+   color: red;
+}
+
+
+
+h1{               -------------este es por elemento
+   color: red;
+}
+
+y le dara prioridad a la clase por mas que lo pusimos primero
+por esto ya no es por cascada
+-----------------------
+
+y el !IMPORTANT
+
+con el important podemos modificar cualquir atributo ya sea si 
+es cascada o por distitas clases,siempre le va a dar prioridad al
+important,por eje
+
+
+<h1 class="estilo-1">mi primer h1</h1>
+
+    en css
+
+h1{              
+   color: red !important
+}
+
+entonces le daria prioridad a ese h1 con el important
+porque el important le gana a todos
+
+------------------------------------------------------------------------------

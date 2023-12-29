@@ -1,0 +1,83 @@
+ 
+ 
+
+   
+13) DISPLAY
+
+para empezar la propiedad display tiene varios valores,
+
+tenemos los mas conocidos que son: block y inline
+
+a los inline-block podemos darle un ancho y un alto
+
+  table
+  
+  inline-table
+
+  list-item                                                                         HAY 16 CELDAS
+
+  table-cell: si tenemos un cuadrado con celdas,se comporta                         I---I----I----I---I              
+ como una de las celdas eje                                                         I---I----I----I--<--------------ESTO ES UNA CELDA,OSEA ESE CUADRADO              
+                                                                                    I---I----I----I---I          SERIA UN TABLE-ROW             
+                                                                                    I---I----I----I---I              
+                                                                                    I---I----I----I---I <----------CUALQUIERA DE ESTAS FILAS ORIZONTAL 
+                                                                                                               SE COMPORTA TABLE-ROW
+  table-row: se comporta como una fila,horizontal                                                                                
+
+  table-column: se comporta como una fila vertical 
+
+   
+  grid: se comporta como bloque, Grid es un sistema de maquetación
+ web que divide la página en una cuadrícula o rejilla (grid) a partir
+ de la cual se pueden posicionar los diferentes elementos de manera más sencilla,
+ versátil y coherente.
+
+  flex: se comporta como bloque,Flexbox se basa en un contenedor flexible
+ (flex container), que a su vez contiene varios elementos flexibles (flex items).
+ El contenedor otorga sus propiedades a los elementos, es decir: los elementos o 
+flexboxes deben su flexibilidad al hecho de estar dentro del contenedor.
+
+mas adelante veremos bien el grid y el flex
+
+el inline block: se comporta como ambas,osea en line y en bloque
+
+
+
+el gird y flex se comportan como bloque
+
+------------------------------------------------------
+
+cambio de palabras
+
+
+
+por ejemplo si queremos cambiar esto:
+
+<div></div>
+<div></div>
+<div></div>
+
+
+apretamos:
+
+ctrl + f
+
+por ejemplo:   
+
+
+ div
+
+luego presionan: ctrl + h
+
+y ponen la etiqueta qaue desean cambiar
+por ejemplo: "p"
+------
+p         aceptar
+
+y todos los "div" seran "p"
+
+y pasaran a esto:
+
+<p></p>
+<p></p>
+<p></p>

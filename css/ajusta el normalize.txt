@@ -1,0 +1,46 @@
+
+ 
+ 
+ en: "img" agregar el:
+
+max-widght: 100%;
+
+despues crear un:
+
+* {
+ box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+ponemos solo el "0" porque seria lo mismo poner :
+
+ padding: 0px,padding: 0em,padding: 0cm;,etc.
+cualquier daria de resultado "0"
+es como cuando multiplicamos un numero por 0
+
+
+otra explicacion
+
+
+8)-------------------------->normalize<------------------------------------------------------
+
+para hacer un comentario en css,osea no se vera en la pagina
+sino que se vera en el visual studio code o con el que 
+estes trabajando. asi es: /* con esto se abre y con esto se cierra: */
+
+tambien sirve para no eliminar.
+para arreglar la letra,osea ajustarla: normalize.css, podemos 
+ponerlo en un link rel
+
+
+para resetear estilo
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+------------------------------------------------------------------------------------------------
+

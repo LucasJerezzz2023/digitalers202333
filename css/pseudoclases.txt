@@ -1,0 +1,202 @@
+ 
+ Una pseudoclase CSS es una palabra clave que se añade a los selectores
+ y que especifica un estado especial del elemento seleccionado. Por ejemplo,
+ :hover aplicará un estilo cuando el usuario haga hover sobre el elemento
+ especificado por el selector.
+ 
+  
+ pseudo-clases:
+
+
+tenemos estas pseudo-clases:
+
+1) ::hover
+2) :link
+3) :visited
+4) :active
+5) :focus
+6) :lang
+------------------------------------------------------------------
+ ::hover :  escuchar el evento cuando esta el mouse encima
+
+
+por ejemplo: 
+
+ 
+ en html
+ 
+ 
+ <body>
+    <div class="caja-1">
+        div de prueba
+    </div>
+</body>
+
+
+en css
+
+
+ 
+     .caja-1{
+        height: 200px;
+        width: 200px;
+        background: slateblue;
+        
+     }
+
+     .caja-1:hover{
+        background: red;
+        height: 300px;
+        width: 300px;
+     }
+
+entonces cuando pasemos en muse por encima del contenedor,cambiara a color red
+
+despues tenemos una propiedades
+
+transition: nos permite cambiar la velocidad en la que ocurre las transiciones
+principalmente en el hover,(pero tambien nos sirve para los otros),por ejemplo:
+
+ en html
+ 
+ 
+ <body>
+    <div class="caja-1">
+        div de prueba
+    </div>
+</body>
+
+
+en css
+
+
+ 
+     .caja-1{
+        height: 200px;
+        width: 200px;
+        background: slateblue;
+        transition: background 1s, height 1s,width 1s;
+     }
+
+     .caja-1:hover{
+        background: red;
+        height: 300px;
+        width: 300px;
+     }
+
+
+entonces con esta propiedad de "transition" cuando le apuntemos el mouse por
+encima va a taradar 1 seagundo en cambiar de color y los tamaños osea 
+el height y el width
+
+y si queremos que todo sea en un segundo para no estar especificando`
+ponemos : transition: all 1s;
+
+--------------------------------------------------------------------------------
+ :link : cambiar un link que todabia no visitamos,por ejemplo:
+
+en html
+ 
+ 
+ <a class="link1" href="https://www.google.com/?hl=es"></a> 
+
+
+
+en css
+
+
+ .link1{
+           color: red;
+
+     }
+
+entonces el color del link de google cambiara a color red,porque 
+lo acabamos de visitar
+--------------------------------------------------------------------------
+ :visited : es lo mismo que link cambia la propiedad cuando la visitamos
+
+--------------------------------------------------------------------------
+ :active : al tener apretado un boton,cambia los estilos,ejemplo:
+
+ en html
+
+
+<div class="caja2"></div>
+
+en css
+
+
+.caja2{
+        height: 300px;
+        width: 300px;
+        background: red;
+        margin: 25px;
+      }
+
+      .caja2:active{
+        background: blue;
+      }
+
+entonces cuando tengamos apretado el click izquierdo se pondra
+de color blue,pero si dejamos de apretar,volvera al color que tenia
+
+------------------------------------------------------------------------------------
+ :focus : esto se aplica mas a los input y es cuando esta el elemento en foco
+osea cuando el elemento esta seleccionado va a cambiar pero cuando dejamos de
+seleccionar o seleccionamos otra cosa va a volver a como estaba:
+
+
+ejemplo: 
+ 
+ 
+ en html
+
+
+<input class="input1">
+
+
+en css
+
+ .input1{
+        margin: 25px;
+        background: lightslategray;
+        transition: 1s;
+      }
+
+      .input1:focus{
+        background: white;
+        padding: 20px;
+      }
+
+--------------------------------------------------------------------------
+
+
+ :lang :  es utilizada para modificar elementos en función del idioma en el
+ que se determina que están. Nota: En HTML, el lenguaje está determinado por 
+una combinación del atributo lang 
+
+
+ejemplo: 
+ 
+ en html
+
+<div class="caja3">
+    <b lang="en">hello how are you</b>
+    <b>hola como estas</b>
+</div>
+
+en css
+
+ .caja3{
+
+        margin: 25px;
+      }
+
+      .caja3 b:lang(en) {
+        background: red;
+        padding: 20px;
+        
+      }
+
+pdd: casi ya ni se usa.
+

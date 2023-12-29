@@ -1,0 +1,78 @@
+ 
+ 
+ 
+  el box model es el modelo con el que trabajamos las cajas
+ 
+ 
+ I-----------------------------------I
+ I                                   I
+ I                                   I
+ I                TEXTO              I -----------> ESTO TIENE VARIAS PROPIEDADES
+ I                                   I  
+ I                                   I
+ I-----------------------------------I
+
+
+propiedades: 
+ 
+ content
+
+ padding
+ 
+ border
+ 
+ margin
+ 
+ 
+ estas 4 propiedades forman en su conjunto el box model
+ 
+ estas propiedades tienen un rango de jerarquia y cada uno 
+se aplica por encima del otro
+
+
+ I-----------------------------------I
+ I                                   I
+ I                                   I
+ I                TEXTO <------------------>esto es el content             
+ I                                   I  
+ I                                   I
+ I-----------------------------------I
+
+el content : lo modificamos con el line-height: modifica el tamaño de la linea
+
+en cambio la forma de modificar las otras propiedades son con las mismas
+ejemplo: 
+
+ padding: padding
+ border: border
+ margin: margin
+
+
+la jerarquia de orden es asi:
+
+content
+padding
+border
+margin 
+
+
+
+
+
+                                    MARGIN
+                       
+              I-----------------------------------------------I
+              I                                               I
+              I                BORDER                         I
+              I                                               I
+              I     I-----------------------------------I     I
+              I     I        padding                    I     I
+              I     I                                   I     I
+              I     I                TEXTO>-------------------------> content             
+              I     I                                   I     I
+              I     I                                   I     I
+              I     I-----------------------------------I     I
+              I                                               I
+              I                                               I
+              I                                               I
+              I-----------------------------------------------I                                                           

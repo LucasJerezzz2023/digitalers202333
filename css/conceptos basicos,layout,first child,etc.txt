@@ -1,0 +1,85 @@
+ 
+
+ first-child + { }
+ nth-child(2 o 3 o 4,etc) + { }
+ last-child + { }
+ 
+ 
+
+
+esto es para seleccionar el primer hijo del contenedor: first-child
+
+
+
+
+
+por ejemplo:
+
+
+<div class="grid-item">1</div>
+
+
+html
+ 
+ 
+  
+  <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div> 
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div> 
+     </div>
+
+
+
+ 
+
+en css
+ 
+  
+ 
+ .grid-item:first-child {
+    
+   }
+  
+ 
+ 
+
+--------------------------
+
+
+para seleccionar al elemento numero 2 es decir al segundo hijo se usa asi: nth-child
+
+
+ 
+ 
+ en html
+  
+<div class="grid-item">2</div>
+
+
+
+
+en css
+ 
+ 
+ .grid-item:nth-child() {
+ 
+}
+
+
+para modificar el 3ro o 4to etc: nth-child(3) {
+}
+ 
+
+
+
+   

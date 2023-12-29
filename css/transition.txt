@@ -1,0 +1,78 @@
+ 
+
+
+que es transition??
+
+ transition es una propiedad que nos permite realizar transiciones dentro
+de los elementos, seria modificar ese elemento en cuestiones de segundos
+dependiendo que tan rapido lo pongamos
+
+por ejemplo:
+
+ 
+ un contenedor rojo
+ 
+ le ponemos una transition: que pase de rojo a azul en 1segundo
+
+entonces cuando lo apliquemos se pondra de rojo a azul en 1 segundo
+
+
+
+
+------------------------------------------------------
+
+                   ¡¡IMPORTANTE!!
+
+para que transition se  ejecute,es necesario disparar un evento
+(hover,onclick,etc)
+
+------------------------------------------------------
+ 
+ 
+ transition : 
+ 
+ 
+  transition-property: property/ies - all - none :
+
+puede ser el background,
+initial,inherit
+------------------ 
+  transition-duration: duration/s : 
+
+1s,min,semisegundo,etc
+-------------------- 
+  transition-delay/s :
+
+ es con delay puede ser 1s,3s 50s,etc
+--------------------------
+ 
+  transition-timing-function: linear | ease | ease-in | ease-out
+  | ease-in-out | step-start | step-end | steps(int,start|end) |
+  initial | inherit;
+  
+   transition:
+
+
+------------------------------------------------------------------------
+
+           ANIMACIONES
+
+
+@keyframes
+ 
+ 
+  animation-name: name
+ 
+  animation-duration: delay
+ 
+  animation-timing-function: (transition values)
+ 
+  animation-iteration-count: number
+ 
+  animation-fill-mode: none | fordwars | backwards | both | initial | inherit;
+ 
+ 
+ 
+ 
+ 
+  

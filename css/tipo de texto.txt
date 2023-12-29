@@ -1,0 +1,17 @@
+6---------------------------->PROPIEDADES DE TEXTO<------------------------------------------------
+
+
+
+
+
+
+text-align: center; : esto centra la letra
+font-size: tamaño de letra
+font-family: tipografia
+line-height: se muevel de la mitad para arriva
+y la mitad para abajo,eje: si le ponemos,line-height: 1;
+esa letra se moveria 0.5 la mitad para arriva y 0.5 la mitad
+para abajo
+font-weight: el grosor de la letra
+
+------------------------------------------------

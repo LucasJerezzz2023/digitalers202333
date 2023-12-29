@@ -1,0 +1,158 @@
+
+
+4)---------------------->METODOLOGIA BEM<---------------------------------------------------------
+
+
+La metodología BEM divide la interfaz de usuario en bloques independientes
+ para crear componentes escalables y reutilizables. Explicamos cómo funciona.
+ BEM (Block, Element, Modifier o Bloque, Elemento, Modificador) es una metodología
+ ágil de desarrollo basada en componentes.
+---------------------------------
+La metodología BEM (Block, Element, Modifier) es una convención de nomenclatura y
+ organización de clases CSS que se utiliza para escribir estilos de manera más estructurada
+ y mantenible. Aquí tienes un resumen de cómo se utiliza:
+
+Bloques (Blocks): Los bloques son componentes o elementos independientes de una página
+ web. Se representan como un contenedor principal y se nombran con un nombre descriptivo 
+en minúsculas, separando palabras con guiones. Por ejemplo, un bloque para un botón podría llamarse "boton".
+CSS
+
+Copiar código
+.boton {
+  /* Estilos del botón */
+}
+
+}
+``
+
+}
+Elementos (Elements): Los elementos son partes de un bloque que no tienen sentido ni 
+uso por sí mismos fuera de ese bloque. Se representan como descendientes del bloque al 
+que pertenecen y se nombran de la misma manera que los bloques, pero precedidos por el nombre
+ del bloque seguido de dos guiones bajos. Por ejemplo, un elemento de un botón podría llamarse "label".
+CSS
+
+Copiar código
+.boton__label {
+  /* Estilos del elemento label dentro del botón */
+}
+Modificadores (Modifiers): Los modificadores se utilizan para cambiar la apariencia
+ o el comportamiento de un bloque o elemento. Se representan como clases adicionales 
+y se nombran usando el nombre del bloque o elemento, seguido de dos guiones y el nombre 
+del modificador. Por ejemplo, un modificador para un botón deshabilitado podría llamarse "disabled".
+CSS
+
+Copiar código
+.boton--disabled {
+  /* Estilos para el botón deshabilitado */
+}
+
+}
+``
+En resumen, la metodología BEM se basa en la idea de dividir tu código CSS en bloques
+, elementos y modificadores, lo que hace que tus estilos sean más comprensibles y mantenibles
+. Al seguir esta convención de nomenclatura, puedes evitar la cascada de estilos inesperados y 
+tener un mayor control sobre cómo se aplican los estilos en tu sitio web.
+
+
+
+
+¿Esta respuesta fue mejor o peor?
+
+Mejor
+
+Peor
+
+Mismo
+
+
+
+-----------------------------------
+<div class="contact-form">
+     <input type="text" class="contact-form__input">
+     <input type="text" class="contact-form__input"--active">
+     <input type="text" class="contact-form__input">
+     <input type="text" class="contact-form__input">
+     <input type="password" class="contact-form__input">
+</div>
+
+
+       en css
+
+.contact-form__input--active {
+        color:red;
+}
+
+
+
+
+
+
+LA METODOLOGIA BEM CONSISTE EN EVITAR ESTOS CONFLICTOS,EVITAR SELECCIONAR
+MUCHAS CLASES Y GENERAR CONFLICTOS POR DOQUIER DE UNA FORMA EN LA QUE PODEMOS CONOCER Y DARNOS CUENTA
+DE QUE ELEMENTO ESTAMOS SELECCIONANDO A PARTIR DE LAS CLASES,NOS BASAMOS EN EL NOMBRE DE LA CLASE
+PARA SABER QUE ELEMENTO ESTAMOS SELECCIONANDO
+
+
+
+EJE:
+
+<div class="contact-form">
+     <input type="text"
+     <input type="password"
+</div>
+
+ PARA EVITAR CONFLICTOS,ACA TENEMOS UNA SOLUCION,LA FORMA DE LA METODOLOGIA BEM 
+ES LA SIGUIENTE:
+PONER EL NOMBRE DEL CONTENEDOR OSEA PORQUE ESTO SE HACE POR CONTENEDOR OKEY,ES
+COMO POR BLOQUES,SERIA :"form" A ESTE NOMBRE LE PONEMOS "__" DOS GUIONES BAJOS,DESPUES
+PONEMOS EL NOMBRE DEL ELEMENTO
+
+POR EJE:
+
+
+<div class="contact-form">
+     <input type="text" class="form__input">   <---- aca estaria aplicada la metodologia bem
+     <input type="password"
+</div>
+
+
+y en css ponemos:
+
+.form__input{
+       color: red;
+}
+
+
+
+AHORA POR EJEMPLO SI TENEMOS MUCHOS INPUT Y QUEREMOS MODIFICAR UNO SOLO
+,TENEMOS QUE HACER LO SIGUIENTE:
+
+
+ <div class="contact-form">
+     <input type="text" class="contact-form__input">
+     <input type="text" class="contact-form__input"--active> le ponemos "--"y le podemos poner cualquir cosa como "active"
+     <input type="text" class="contact-form__input">
+     <input type="text" class="contact-form__input">
+     <input type="password" class="contact-form__input">
+</div>
+
+
+y en css ponemos:
+
+.form__input--active{
+       color: red;
+}
+
+
+ahora si por ejemplo tenemos:
+
+ <div class="contact-form">            
+     <p class="contact-form__p">
+         <h2 class="contact-form__p-h2"></h2>
+</p>
+</div>
+
+osea tenemos: el contenedor"contact-form + los dos
+ guiones bajos"__" y el elemento:"-h2"
+----------------------------------------

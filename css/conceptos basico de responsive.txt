@@ -1,0 +1,185 @@
+ 
+META VIEWPORT
+
+Mientras que la etiqueta viewport es una meta etiqueta HTML que
+ controla cómo se ajusta y muestra el contenido en la ventana
+ gráfica del navegador web en dispositivos móviles. En otras palabras,
+ determina el área visible de una página web en la pantalla del dispositivo.    
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ 
+ responsive desing - mobile first : se adpta lo de escritorio a dispositivos mobiles o viseversa
+
+ejemplo:
+
+en visual studio code se explica mejor
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+menu responsive---------
+
+
+
+con este menu lo que haremos es adaptarlo a dispositivos mobiles
+
+necesitamos:
+
+1) : <script src="https://kit.fontawesome.com/1da1e9b793.js" crossorigin="anonymous"></script>
+
+
+2) : pagina para implementar iconos: https://fontawesome.com/kits/1da1e9b793/setup
+    font awesome contraseña: PyJfontawesome
+
+
+
+------------------------------------------------------
+aca empezamos
+
+
+
+en html
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Responsive</title>
+    <link rel="stylesheet" href="style.css"> <!-- Archivo de estilos CSS -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Logo</div>
+            <nav>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script src="script.js"></script> <!-- Archivo JavaScript -->
+</body>
+</html>
+
+
+en css
+
+
+
+
+/* Estilos CSS para el menú */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+    }
+    .menu.active li {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+
+en javascript
+
+
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
+
+
+
+
+
+
+
+
+
+con esto ya podemos trabajar con el menu
+
+
+
+
+
+
+info-------
+
+el hover en mobile funciona cuando se clickea(ya que en mobile no existe forma de pasar
+el mouse sobre los elementos)
+
+
+
+
+
+ 
+ 
+
+

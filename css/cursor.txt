@@ -1,0 +1,13 @@
+
+ 
+ 
+ cursor:
+
+te muestra los tipos de cursor osea la flecha del "mouse"
+lo unico es que con esto no te da la funcion,sino es solo un aspecto
+
+aca en esta pagina tenemos todos los tipos de cursor:
+ 
+  https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor
+
+

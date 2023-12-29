@@ -1,0 +1,382 @@
+css es un lenguaje para darle estilo a una pagina
+
+-----------------------------------------------------------
+(1 Y 2)------------>ESTRUCTURA/SELECTORES<-------------------------------------------------------   
+
+
+
+
+---------------------------------------
+
+
+
+ <style> para darle estilo y se escribe asi:
+
+ <style type="text/css"></style>
+
+tambien podemos usarlo con el <p> osea el parrafo,por eje:
+  
+
+ <p style="color:red">
+          lorem ipsum dolor sir</p>
+
+ entonces este texto sera de color rojo
+
+PERO LA FORMA MAS COMUN Y LA MAS USADA ES con : 
+
+<link rel="stylesheet" type="text/css" href="">
+           
+
+y para darle estilo a una pagina deberiamos hacer asi:
+
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+
+AHORA PARA PARA MANEJAR CSS TENEMOS LA SIGUIENTES PROPIEDADES
+EJE: 
+  
+     selector {
+          propiedad: valor;
+     }
+
+........
+
+ IMPORTANTE: DESPUES DE CADA VALOR SE SELECCIONA UN "; "PUNTO Y COMA
+ 
+............
+
+selector: elemento que queremos cambiar
+propiedad: es por ejemplo:color,tamaño,forma,etc
+valor: seria es de color rojo,o tamaño de 100px,etc
+
+por eje:
+  
+h2{
+   color: rojo;
+}
+
+------------------------------------------------------
+display
+
+
+     ---------------------------
+display block: completa la linea
+display line: no completa la linea
+ ---------------------------------
+ 
+ 
+
+
+Los elementos en lina: son los que se ajustan a su contenido
+por ejemplo: si la caja es de 100px entonces la el contenido
+sera de 100px
+
+los elementos en blockes: si el texto es este: hola soy raul
+, entonces deberias seguir escribiendo hasta completar la linea
+
+-------------------------------------
+
+---------------------------------------
+
+HAY VARIOS TIPOS DE PROPIEDADES PARA MODIFICAR LOS TEXTOS
+
+1.CSS SELECTOR UNIVERSAL
+2.DE TIPO
+3.CLASS: CLASES
+4.ID: identificador
+5.POR ATRIBUTO: value
+6.DESCENDIENTE
+7.PSEUDO-CLASES
+8.ESTILO EN LINEA
+9.IMPORTANT
+
+ -----------------------------------
+
+exadecimal: es un sistema de 16 unidades 
+
+eje: color: #ab32b;
+ y se pone de color morado
+
+----------------(1) UNIVERSAL---------------------------------------------------
+
+ css selector universal: este selector:" * " selecciona a todos los elementos
+
+ eje: si ponemos 
+
+h2,p,title{
+         color: red;
+}
+
+y todos los textos que lleven esas etiquetas seran de color rojo
+------------------------------------
+
+
+
+----------------------------(2)DE TIPO-----------------------------------
+
+los de tipo serian por ejemplo: button,h1,h2,p,etc.
+
+osea seleccionar por el nombre de los elementos
+
+si queres editar el "h1" seria:
+
+h1{
+     color:red;
+}
+
+entonces todo el contenido del "h1" sera rojo
+
+p{
+    color:red;
+}
+
+entonces todo el contenido del "p" sera rojo
+y asi con los demas,input,button,div,etc.
+
+
+
+
+
+
+    
+
+
+---------------------------------------
+
+          
+
+            3) CLASS
+
+
+
+AHORA VAMOS A VER COMO MODIFICAR LOS TEXTOS CON " CLASS "
+
+eje:
+
+<h2 class="titulo-h2">mi primer h2 con css</h2>
+
+en css para seleccionar por clase se utiliza un " . "
+
+osea en css para modificar ese "h2 con clase" deberiamos poner:
+
+   .titulo-h2{
+          color_red
+}
+
+
+ahora por eje si ponelos esa misma clase en un <p> tambien cambiaria de color
+red esa etiqueta eje:
+
+   <p class="titulo-2"> hola soy lucas</p>
+
+osea que el "hola soy lucas seria de color rojo
+
+-----------------------------------
+        
+        4) ID
+
+
+AHORA VEREMOS = ID
+
+para modificar un elemento con el "id" usamos el " # "
+
+osea se pone el signo" # " y luego el nombre del id
+
+ejemplo:
+
+<h1>mi primer h1</h1>
+
+para modificar este h1 con id tenemos que hacer lo siguiente:
+
+<h1 id="elemento">mi primer h1</h1>
+
+y en css ponemos asi:
+
+#elemento{
+   color: red;
+}
+
+si le queremos dar otro " id " no deberia ser el mismo,si es el mismo
+entonces tambien lo modificaria el color o lo que tenga por eje:
+
+
+<h1 id="elemento">mi primer h1</h1>
+<h2 id="elemento">mi primer h2</h2>
+
+     con css
+
+#elemento{
+        color: red;
+}
+
+entonces el h1 y h2 pasarian a modificarse de igual forma
+osea los dos serian de color rojo
+
+pero si ponemos otro id por eje:
+
+<h1 id="elemento">mi primer h1</h1>
+<h2 id="elemento2">mi primer h2</h2>
+
+     con css
+
+#elemento{
+        color: red;
+}
+
+entonces ahi solo se modificaria el h1 porque tiene el id:elemento
+
+
+
+
+
+<h2   id="elemento" 
+
+
+h2: etiqueta
+id:atributo
+elemento: valor
+-----------------------------------
+           
+
+           5) ATRIBUTO
+
+
+
+ahor para seleccionar por: ATRIBUTO="texto" 
+
+
+escribimos un texto el que quieramos,por ejemplo:
+
+spyderman="dos"
+
+por ejemplo agarramos esta etiqueta:
+
+<h2 id="elemento2">mi primer h2</h2>
+
+y le ponemos el atributo : spyderman="dos"
+quedaria asi
+
+<h2 id="elemento2" spyderman="dos">mi primer h2</h2>
+
+y para modificar el atributo con css usamos el: [ ]
+
+quedaria asi
+
+     con css
+
+[spyderman="dos"]{
+      color: orange;
+}
+
+
+------------------------------------------
+
+            6) DESCENDIENTE
+
+ahora para modificar con el atributo: descendiente
+hacemos lo siguiente,por ejemplo si tengo 2 etiquetas <p>
+
+y solo quiero modificar una
+
+<h2><p>hola soy h2</p></h2>
+<p>pepito esta comiendo</p>
+
+como ven tenemos 2<p> y si por ejemplo quiero modificar la <p> que
+esta dentro del <h2> tengo que modificarlo asi con css
+
+h2 p {
+     color: red;
+}
+
+entonces ahi solo se modificara la <p> que esta dentro del <h2>
+
+y esto puede seguir por ejemplo si tenemos 
+
+<h2><p><b>hola soy h2</b></p></h2>
+
+lo ponemos asi con css
+
+h2 p b{
+     color: red;
+}
+
+tambien podemos modificar para cambiarle a 2 atributos en una
+misma fila asi:
+
+<h2 class="elemento"><b>ami primer h2<span>minecraft</span></b></h2>
+
+si quiero poner :"mi primer h2" de color rojo y : "minecraft" de color azul
+hacemos lo siguiente
+
+.h2-class b{
+      color: red;
+  }
+
+.h2-class b span{
+   color: blue;
+}
+
+
+
+
+------------------------------------------------
+
+
+
+ 7) PSEUDO-CLASES
+
+
+
+
+ahora para modificar por: PSEUDO-CLASES
+
+significa que por donde pasemos el mouse se modificara
+
+por eje:
+si queremos cambiar de color rojo cada vez que pase el mouse
+por texto que uso la etiqueta <h2> entonces hacemos lo siguiente
+
+<h2>mi primer h2<h2>
+
+en css
+
+h2:hover{
+    color: red;
+}
+
+------------------------------------------------
+
+
+8) ESTILO EN LINEA
+
+
+style="color:red">
+
+esto se pone en html no en css
+
+-----------------------------------------------------------------------------------
+
+9) IMPORTANT
+
+
+el important se le puede agregar a cualquier selector
+
+y es el mas relevante de todos los selectores
+
+se usa asi: 
+por ejemplo si tengo un "h2" que tenga esta propiedad
+
+
+h2{
+   color:red; 
+}
+
+agregamos el important al constado con un signo de interrogacion: "!"
+
+
+
+h2{
+   color:red !important
+}
+
+y asi se usa el important.

@@ -1,0 +1,32 @@
+ 
+
+  responsive design (completo)
+ 
+ 
+  estructura flexibles (contenedores flexibles, imagenes y videos flexibles)
+   media queries :
+
+ @media se usa en consultas de medios para aplicar diferentes estilos para diferentes
+tipos / dispositivos de medios.
+
+_ancho y alto de la ventana grafica
+_ancho y alto del dispositivo
+_orientacion (¿la tableta / telefono esta en modo horizontal o vertical?)
+ 
+ 
+----------------  
+     all
+          apto para todos los dispositivos
+     print
+          destinado a material impreso y visualizando de documentos en una
+    pantalla en el modo de vista previa de impresion.
+     screen
+         destinado principalmente a las pantallas. <---------este es el mas utilizado
+     speech
+        destinado a sintetizadores de voz.
+ 
+ 
+ 
+  operadores AND | OR
+ 
+    orientation : landscape y portrait

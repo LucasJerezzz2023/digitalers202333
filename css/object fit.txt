@@ -1,0 +1,143 @@
+  
+ 
+
+objet fit: La propiedad CSS object-fit indica cómo el contenido de un 
+elemento reemplazado, por ejemplo un <img> o <video> , debería redimensionarse
+ para ajustarse a su contenedor. Se puede alterar la alineación del contenido
+ del elemento reemplazado utilizando la propiedad object-position  
+
+ 
+ 
+ Objet Fit: fil
+
+  
+                contain: se queda con la que mas le conviene,
+mantiene las resoluciones ajustandose al contenido,pero no rellena espacios
+
+
+en html
+
+
+<div class="caja-1">
+        <img src="messi.jpg" alt="">
+    </div>
+
+
+en css
+
+
+.caja-1{
+    margin: 25px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+   }
+
+   .caja-1, img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    object-fit: contain;
+
+   }
+
+
+
+-------------------------------------------------------------------
+                cover : hace que la imagen se agrande lo mas posible pero
+manteniendo la escala de la resolucion
+
+una imagen con borde:
+
+en html
+
+
+<div class="caja-1">
+        <img src="messi.jpg" alt="">
+    </div>
+
+
+en css
+
+
+.caja-1{
+    margin: 25px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+   }
+
+   .caja-1, img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    object-fit: cover;
+
+   }
+------------------------------------------------------------------
+                none: usa las propiedades por defecto,manda como quiere la imagen
+
+en html
+
+
+<div class="caja-1">
+        <img src="messi.jpg" alt="">
+    </div>
+
+
+en css
+
+
+.caja-1{
+    margin: 25px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+   }
+
+   .caja-1, img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    object-fit: none;
+
+   }
+
+
+
+
+
+-------------------------------------------------------------------
+                scale-down: se queda con mejor propiedad 
+
+   
+
+en html
+
+
+<div class="caja-1">
+        <img src="messi.jpg" alt="">
+    </div>
+
+
+en css
+
+
+.caja-1{
+    margin: 25px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+   }
+
+   .caja-1, img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    object-fit: scale-down;
+
+   }
+
+-------------------------------------------------
+el objet fit sirve mucho para hacer galerias de imagenes por ejemplo
+     

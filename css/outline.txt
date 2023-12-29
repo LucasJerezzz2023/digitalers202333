@@ -1,0 +1,41 @@
+ 
+ 
+ 
+   11) outline. 
+
+el outline es un shorhan,que es un shorhan?.
+el shorhan es una propiedad acortada,es una propiedad que esta recortada,porque
+es el conjunto de otras propiedades como por ejemplo:
+
+border color,
+border wightm
+border style
+ 
+como se abrebian? 
+
+ponemos border,en vez de poner border wight 2px
+
+ponemos border: 2px solid red;
+
+ de esa forma la abreviamos,es una forma de reducir codigos 
+y es una buena practica
+
+que hace outline? 
+
+outline : es como boder pero sin afectar a las demas cajas,
+es como una especie de resaltador, osea si auna caja le quiero dar un borde
+con border de 10px para arriva y 10px para la izquierda,border lo que hará es mover
+la caja con bordes,en cambio outline no movera la caja,simplemente pondra un borde
+osea un resaltador,el border ocupa un lugar real mientras que el outline no afecta
+a las demas cajas
+
+para darle un outline debemos poner por eje:
+
+
+
+
+h1{
+outline: 5px solid color :red;
+}
+  
+---------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+ 
+
+
+  Un Layout es un contenedor de una o más vistas y controla su comportamiento y posición
+. Hay que destacar que un Layout puede contener a otro Layout y que
+ es un descendiente de la clase View.
