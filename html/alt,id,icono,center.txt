@@ -1,0 +1,79 @@
+  -------Alt, ID, iconos y center--------
+
+
+
+
+no puede faltar la etiqueta alt cuando ponemos una imagen por eje;
+
+
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <img src="steve.jpg" alt="steve" title="jugador">
+</body>
+</html>
+
+
+despues tenemos la etiqueta center.
+es para centrar algo,atexto,imagen,etc,
+
+por eje:
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+     <center>
+    <img src="steve.jpg" alt="steve" title="jugador">
+     </center>
+</body>
+</html> 
+
+pero para centrar una tabla deberia ser asi:
+
+ 
+    
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tablas</title>
+</head>
+<body>
+    <table>
+        <tr>     abrimos              cerramos
+            <td><center><b>Nombre</b></center></td>
+            <td><b>años</b></td>
+            <td><b>presupuesto</b></td>
+        </tr>
+        <tr>
+            <td>raul alvarez</td>
+            <td>40</td>
+            <td>$200.000</td>
+        </tr>
+        <tr>
+            <td>carlos sebatier</td>
+            <td>52</td>
+            <td>$190.000</td>
+        </tr>
+        <tr>
+            <td>damian trevole</td>
+            <td>32</td>
+            <td>$350.000</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+ pero lo recomendable es usaralo al center
+con css
+       
+     -- -------------------------

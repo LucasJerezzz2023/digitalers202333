@@ -1,0 +1,93 @@
+<input type="" name=""
+<input>: entrada de datos,por eje: le pedimos que nos inserte un texto
+type="text": las aventuras de mi gato
+
+value: es lo que dira en el cuadro por eje:
+
+<input type="text" value="hola">
+
+entonces en el cuadro dira hola
+
+<button>: el boton es solo un botton para presionar
+
+<button>continuar</button> 
+
+ouput> : salida de datos
+
+"name" en input es como un identificador
+
+osea podemos poner 
+
+input type="" name="nombre">
+
+hay distintos tipos de input como por ejemplo:
+
+
+input type="text" : hola 
+input type="number" : 123
+input type="password" : ****
+input type="email" : ricardoalvarez21@gmail.com
+input type="color" : rojo
+input type="range" : es el rango de numeros por eje: min:1 max:10  del 1 al 10 si 
+movemos la palanca para abajo nos da un 4 y si movemos para arriba un 8, y si lo
+ ponemos al maximo sera un 10
+input type="date" : 10/05/2023
+input type="time" : 12:54pm
+input type="button" un boton que tiene que tener si o si el "value" por ejemplo: value:boton
+entonces el boton dirá "boton"
+input type="submit": un boton que envia los datos
+
+
+
+-------------------------
+
+ahora veremos el atributo "required". 
+es un atributo de requerimiento que se usa para todo
+
+por eje: <input type="emai" required="">
+
+cuando pongamos un email sin el "@" no nos dejara enviar los datos
+------------------------------------
+
+despues tambien tenemos el "value" y sirve para poner un texto dentro del cuadro
+del formulario poar ejemplo:
+
+
+input type="text" value="hola como te va"> 
+
+entonces aen el cuadro dira "hola como estas" 
+
+
+esto fue formulario,la etiqueta para eso es el "<form>"
+
+y el metodo "post"
+
+Traducción del inglés-En informática, POST es un método de solicitud
+ compatible con HTTP utilizado por la World Wide Web. Por diseño, el 
+método de solicitud POST solicita que un servidor web acepte los datos
+ incluidos en el cuerpo del mensaje de solicitud, muy probablemente para 
+almacenarlos
+
+
+por eje:
+
+<form method="post">
+input type="text" 
+input type="number" 
+input type="password" 
+input type="submit"
+</form>
+
+y ahi creamos un formulario
+
+despues tenemos el "<texarea></texarea>" es un cuadro que aparece a la par del fomulario
+y no se puede hacer nada a lmenos que pongamos el atributo "readonly" y luego escribamos
+algo podremos leer lo que dice ahi por eje:
+
+<texarea readonly="hola"> entonces en el cuadro me dira "hola" pero solo podremos 
+leerlo y no podremos escribir nada, pero si sacanmos el "readonly" si podremos escribir
+
+
+
+
+

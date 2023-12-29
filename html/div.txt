@@ -1,0 +1,11 @@
+
+  
+ <div>: significa divisor,y se usa para separar o agrupar un texto o lo que sea
+
+por ejemplo
+
+ <p>aqui en argentina nos encanta hacer asado
+<div></div>
+asi que cocinamos hasado muy seguido</p>
+
+ahi separamos los textos con el "div"

@@ -1,0 +1,84 @@
+...ahora vamos a ver el ID----------------
+
+el "id" es un identificador de algo,
+por eje: si tenemos mucho texto en la pagina y el usuario quiere 
+encontrar un codigo y queremos que el usuario no se confunda con los demas
+textos,lo que debemos hacer es ponerle un "id" a ese codigo para que el
+usuario pueda encontrarlo
+
+
+eje:  
+
+
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <a href="#codigo412">click aqui para acceder al codigo 412</a>  --------ESTE ES EL LINK CON EL CODIGO CON EL CUAL NOS LLEVA A 
+                                                                            ESE CODIGO QUE QUIERE ENCONTRAR EL USUARIO 
+
+    <p>ipsum dolor sit amet consectetur adipisicing elit. Iusto esse est error,
+     asperiores unde, commodi optio atque blanditiis obcaecati facilis eaque impedit id.
+      Qui atque quam, sapiente ea vero sint! Lorem ipsum dolor sit amet consectetur 
+      adipisicing elit. Veritatis sed voluptates sequi est adipisci odit vel numquam
+       consequuntur hic. Doloremque enim deleniti obcaecati unde rerum ex quaerat similique
+        sapiente ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem impedit, eveniet amet optio minima suscipit, nihil voluptatem perspiciatis, recusandae iure laudantium quia! Nihil eos molestiae nemo aliquid voluptatum rem omnis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur repudiandae iste incidunt non? Iure praesentium asperiores ad eos atque suscipit ut voluptatibus, natus optio ea culpa provident iusto voluptatem obcaecati?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente culpa dolorum non, quasi nulla quibusdam id exercitationem repellat recusandae? Temporibus itaque aliquam velit nihil dicta quisquam expedita labore, dolorem atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis numquam, repudiandae accusamus laborum a quis repellat non quibusdam autem sequi incidunt dolor reiciendis praesentium tenetur porro, deleniti vero nisi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui autem neque, quos modi nostrum ratione perferendis quibusdam dolorem eaque inventore sunt mollitia iste dolor tempora eveniet quaerat necessitatibus nesciunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint illo nihil suscipit recusandae? Dolor, corrupti. Quis eos commodi quam aperiam veritatis, eaque quod, porro cum, velit voluptatem ad officiis!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quos officia vitae minus laboriosam ex, error nihil natus reprehenderit iusto laudantium dignissimos iste commodi, omnis eius ratione ducimus voluptas odio!
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi consequuntur fugiat minus exercitationem, mollitia ex voluptatum minima quis? Natus sapiente cum laboriosam ipsum totam perspiciatis quidem id adipisci ab sint!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis officiis, aliquam rerum, facere corrupti autem quos dicta quo aspernatur veniam assumenda vitae, reiciendis voluptatibus laborum ipsum dignissimos quisquam mollitia animi!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sint ex explicabo rem similique, recusandae natus repellat distinctio perspiciatis dignissimos vel ratione cumque, rerum nostrum. Fuga ipsam earum id cupiditate.
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quos. Excepturi maiores eveniet porro minima animi aperiam eos laborum voluptate suscipit eum ullam iste accusantium dolor, beatae delectus commodi quaerat.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eaque quis, odio ducimus cum in sequi fugiat fugit fuga a libero labore voluptatibus voluptatem, unde aliquid quod illum ad accusantium.
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab beatae tempore libero, enim aspernatur iste facilis. Rem sit a veritatis illo, vitae ea amet veniam, labore eos, odit culpa dolorum.
+         ipsum dolor sit amet consectetur adipisicing elit. Iusto esse est error,
+     asperiores unde, commodi optio atque blanditiis obcaecati facilis eaque impedit id.
+      Qui atque quam, sapiente ea vero sint! Lorem ipsum dolor sit amet consectetur 
+      adipisicing elit. Veritatis sed voluptates sequi est adipisci odit vel numquam
+       consequuntur hic. Doloremque enim deleniti obcaecati unde rerum ex quaerat similique
+        sapiente ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem impedit, eveniet amet optio minima suscipit, nihil voluptatem perspiciatis, recusandae iure laudantium quia! Nihil eos molestiae nemo aliquid voluptatum rem omnis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur repudiandae iste incidunt non? Iure praesentium asperiores ad eos atque suscipit ut voluptatibus, natus optio ea culpa provident iusto voluptatem obcaecati?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente culpa dolorum non, quasi nulla quibusdam id exercitationem repellat recusandae? Temporibus itaque aliquam velit nihil dicta quisquam expedita labore, dolorem atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis numquam, repudiandae accusamus laborum a quis repellat non quibusdam autem sequi incidunt dolor reiciendis praesentium tenetur porro, deleniti vero nisi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui autem neque, quos modi nostrum ratione perferendis quibusdam dolorem eaque inventore sunt mollitia iste dolor tempora eveniet quaerat necessitatibus nesciunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint illo nihil suscipit recusandae? Dolor, corrupti. Quis eos commodi quam aperiam veritatis, eaque quod, porro cum, velit voluptatem ad officiis!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quos officia vitae minus laboriosam ex, error nihil natus reprehenderit iusto laudantium dignissimos iste commodi, omnis eius ratione ducimus voluptas odio!
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi consequuntur fugiat minus exercitationem, mollitia ex voluptatum minima quis? Natus sapiente cum laboriosam ipsum totam perspiciatis quidem id adipisci ab sint!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis officiis, aliquam rerum, facere corrupti autem quos dicta quo aspernatur veniam assumenda vitae, reiciendis voluptatibus laborum ipsum dignissimos quisquam mollitia animi!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sint ex explicabo rem similique, recusandae natus repellat distinctio perspiciatis dignissimos vel ratione cumque, rerum nostrum. Fuga ipsam earum id cupiditate.
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quos. Excepturi maiores eveniet porro minima animi aperiam eos laborum voluptate suscipit eum ullam iste accusantium dolor, beatae delectus commodi quaerat.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eaque quis, odio ducimus cum in sequi fugiat fugit fuga a libero labore voluptatibus voluptatem, unde aliquid quod illum ad accusantium.
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab beatae tempore libero, enim aspernatur iste facilis. Rem sit a veritatis illo, vitae ea amet veniam, labore eos, odit culpa dolorum.
+  
+        </p>  
+    <h2 id="codigo412">codigo es:6576321</h2>      -------Y NOS LLEVA A ESTE CODIGO QUE ES EL QUE QUERIA BUSCAR EL USUARIO
+</body>
+</html>
+
+ entonces el usuario podra encontrar ese codigo
+tambien sirve para mandarnos a otras secciones
+
+----ahora para poner un icono de imagen arriva en la parte del navegador
+hacemos lo siguiente:
+
+   
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="icon" href="steve.ico">       -------CON ESTE CODIGO PONEMOS UNA IMAGEN ARRIVA EN EL NAVEGADOR----
+</head>
+<body>
+    
+</body>
+</html>
+
+

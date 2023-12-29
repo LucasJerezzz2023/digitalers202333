@@ -1,0 +1,31 @@
+METADATOS!!
+
+es informacion que describe otra informacion
+
+la etiqueta se escribe asi : <meta> y se pone en el head,ejemplo:
+
+<head>
+    <meta>
+</head>
+
+recuerden que en el head esta todo lo que no se puede ver
+
+podemos usar el meta como : si tenes una tienda de comida
+usamos:  <meta name= "keywords" content="harina,leche,huevo"> : esta define
+palabras clave osea "etiquetas"
+
+<meta name="descripcion" content="alimentos S,A es una compania
+destinada a brindar los mejores alimentos de calidad en tiempo 
+y forma"> ejemplo: es para describir la pagina
+
+<meta name="author" content="lucas jerez"> : este es el autor de la pagina
+
+meta name="copyright" content="facebook inc."> : este es si tiene copiright 
+y el contenido es el dueño de los derechos de esa empresa osea "facebook"
+
+<meta name="robots" content="index o no index"> ejemplo: si es index
+aparece en la pagina y si es no index no aparece
+<meta name="robots" content="follow"
+
+
+esto es para arreglar el lenguaje osea los textos : <meta charset="utf-8">

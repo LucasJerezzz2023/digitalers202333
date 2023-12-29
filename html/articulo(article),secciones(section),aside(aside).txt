@@ -1,0 +1,267 @@
+
+----------------ARTICULOS-----------------------------
+
+
+
+supongamos que nuestra pagina es una pagina de articulos, o nota
+para ello se algo que se llama articulo<article>,el articulo se puede dividir en se
+cciones<section>
+estas secciones dividen los articulos
+
+
+
+y por ultimo tenemos un articulo secundario es como algo relevante pero no
+necesario tanto se llama<aside>
+
+lo usariamos asi: 
+
+
+      
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <title>titulo</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                  <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="micuenta.html">micuenta</a></li>
+                    <li><a href="nosotros.html">sobre nosotros</a></li>
+    
+                    
+                  </ul>
+            </nav>
+        </header>
+        <article>
+            <section>
+        <h1>
+            esta pagina es el inicio
+        </h1>
+       
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo debitis ullam consequuntur, ratione facere commodi
+              impedit dolor temporibus enim dignissimos qui alias cupiditate
+               incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+        <h1>
+        </section>
+          </article>
+          <article>
+            <section>
+          <h1>
+            esta pagina es mi cuenta
+        </h1>
+        <h2>
+            <p>
+                nombre: pepe raul alvarez
+                instagram: @pepealvarez_ok
+                youtube: pepe raul alvarez
+            </p> 
+    
+        </h2>
+    
+    
+        <h1>
+        </section>
+        </article>
+        <article>
+            <section>
+            acerca de nosotros
+        </h1>
+        <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo debitis ullam consequuntur, ratione facere commodi
+              impedit dolor temporibus enim dignissimos qui alias cupiditate
+               incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+        </h2>
+    </section>
+    </article>
+    </nav>
+    </header>
+
+    <aside>
+        <h2>contenido extra</h2>                                   AQUI ESTARIA EL ASIDE
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Perferendis recusandae consectetur maxime totam, aliquid quo
+             saepe commodi nemo accusamus eligendi. Id facilis repudiandae
+              perferendis dolorum dignissimos impedit saepe esse expedita?
+        </p>
+    </aside>
+        
+    </body>
+    </html>
+     
+EL <NAV>VA DENTRO DEL <HEADER>
+
+
+usando el <article> y <section>
+
+quedaria mejor escrito
+asi: 
+
+            
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <title>titulo</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                  <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="micuenta.html">micuenta</a></li>
+                    <li><a href="nosotros.html">sobre nosotros</a></li>
+    
+                    
+                  </ul>
+            </nav>
+        </header>
+        <article>
+            <section>
+        <h1>
+            esta pagina es el inicio
+        </h1>
+       
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo debitis ullam consequuntur, ratione facere commodi
+              impedit dolor temporibus enim dignissimos qui alias cupiditate
+               incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+        <h1>
+        </section>
+          </article>
+          <article>
+            <section>
+          <h1>
+            esta pagina es mi cuenta
+        </h1>
+        <h2>
+            <p>
+                nombre: pepe raul alvarez
+                instagram: @pepealvarez_ok
+                youtube: pepe raul alvarez
+            </p> 
+    
+        </h2>
+    
+    
+        <h1>
+        </section>
+        </article>
+        <article>
+            <section>
+            acerca de nosotros
+        </h1>
+        <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo debitis ullam consequuntur, ratione facere commodi
+              impedit dolor temporibus enim dignissimos qui alias cupiditate
+               incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+        </h2>
+    </section>
+    </article>
+    </nav>
+    </header>
+        
+    </body>
+    </html>
+
+despues tenemos el pie de pagina<footer>
+es lo que nos dice el copiright,lo que nos manda el enlace,lo que nos lleva a la 
+parte de contanco,para darnos feedback,las redes sociales,etc
+por eje: ALIMENTOS JEREZ  -COPIRIGHT- TODOS LOS DERECHOS RESERVADOS
+
+
+el footer iria asi :
+
+  
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <title>titulo</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                  <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="micuenta.html">micuenta</a></li>
+                    <li><a href="nosotros.html">sobre nosotros</a></li>
+    
+                    
+                  </ul>
+            </nav>
+        </header>
+        <article>
+            <section>
+        <h1>
+            esta pagina es el inicio
+        </h1>
+       
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo debitis ullam consequuntur, ratione facere commodi
+              impedit dolor temporibus enim dignissimos qui alias cupiditate
+               incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+        <h1>
+        </section>
+          </article>
+          <article>
+            <section>
+          <h1>
+            esta pagina es mi cuenta
+        </h1>
+        <h2>
+            <p>
+                nombre: pepe raul alvarez
+                instagram: @pepealvarez_ok
+                youtube: pepe raul alvarez
+            </p> 
+    
+        </h2>
+    
+    
+        <h1>
+        </section>
+        </article>
+        <article>
+            <section>
+            acerca de nosotros
+        </h1>
+        <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo debitis ullam consequuntur, ratione facere commodi
+              impedit dolor temporibus enim dignissimos qui alias cupiditate
+               incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+        </h2>
+    </section>
+    </article>
+    </nav>
+    </header>
+
+    <aside>
+        <h2>contenido extra</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Perferendis recusandae consectetur maxime totam, aliquid quo
+             saepe commodi nemo accusamus eligendi. Id facilis repudiandae
+              perferendis dolorum dignissimos impedit saepe esse expedita?
+        </p>
+    </aside>
+    <footer>
+        <h4>copiright - todos los derechos reservados</h4>                      ACA ESTA EL FOOTER
+        <p>seguinos en nuestras <b>redes</b></p>
+        <a href="https://instagram.com/pepealvarez_ok">instagram</a>
+        <a href="https://facebook/pepe_alvarez1995">instagram</a>
+        <a href="https://youtube.com/pepe raul alvarez">youtube</a>
+
+    </footer>
+        
+    </body>
+    </html>
+
+

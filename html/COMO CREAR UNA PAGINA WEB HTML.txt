@@ -1,0 +1,26 @@
+  
+ 
+ 
+  Una página web HTML está compuesta por varias etiquetas que definen la estructura y el contenido de la página. Algunas de las etiquetas esenciales que suelen utilizarse son:
+
+<!DOCTYPE html>: Define el tipo de documento como HTML5.
+<html>: Inicia el documento HTML.
+<head>: Contiene metadatos, enlaces a hojas de estilo, scripts, etc.
+<meta>: Proporciona información sobre el documento.
+<title>: Define el título de la página que se muestra en la pestaña del navegador.
+<link>: Enlaza la hoja de estilo CSS externa.
+<script>: Enlaza archivos de scripts o define scripts en línea.
+<body>: Contiene el contenido visible de la página.
+<header>: Encabezado de la página.
+<nav>: Sección de navegación.
+<main>: Contenido principal de la página.
+<section>: Secciones de contenido dentro de <main>.
+<article>: Artículos independientes dentro de <main>.
+<aside>: Contenido relacionado pero independiente del contenido principal.
+<footer>: Pie de página.
+Además de estas etiquetas básicas, existen muchas otras etiquetas HTML que se utilizan para definir listas, tablas, formularios, imágenes, videos, entre otros elementos. El uso apropiado de estas etiquetas ayuda a estructurar y dar significado al contenido de la página web.
+
+
+
+
+

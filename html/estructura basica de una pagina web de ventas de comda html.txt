@@ -1,0 +1,72 @@
+ 
+ 
+
+  
+Claro, aquí te presento una estructura básica de una página web de ventas de comida
+ utilizando HTML. Ten en cuenta que este es un esquema básico y puedes expandirlo
+ y personalizarlo según tus necesidades:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda de Comida</title>
+    <!-- Enlace a tu archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Tu Tienda de Comida</h1>
+        <!-- Sección de redes sociales -->
+        <div class="redes-sociales">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <!-- Números de contacto -->
+        <div class="contacto">
+            <p>Teléfono: 123-456-789</p>
+            <p>Email: info@tutiendadecomida.com</p>
+        </div>
+    </header>
+
+    <!-- Sección de artículos -->
+    <main>
+        <section class="articulos">
+            <article>
+                <img src="imagen1.jpg" alt="Artículo 1">
+                <h2>Artículo 1</h2>
+                <p>Descripción del artículo 1...</p>
+                <p>Precio: $XX.XX</p>
+                <button>Comprar</button>
+            </article>
+            <article>
+                <img src="imagen2.jpg" alt="Artículo 2">
+                <h2>Artículo 2</h2>
+                <p>Descripción del artículo 2...</p>
+                <p>Precio: $XX.XX</p>
+                <button>Comprar</button>
+            </article>
+            <!-- Puedes añadir más artículos -->
+        </section>
+    </main>
+
+    <!-- Sección de pie de página -->
+    <footer>
+        <p>&copy; 2023 Tu Tienda de Comida. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+Este es un esqueleto básico de una página web. Debes crear un archivo CSS (styles.css)
+ para darle estilo a tu página, ajustando el diseño, colores, tamaños, etc.
+
+En la sección de articulos, cada <article> representa un artículo a la venta.
+ Reemplaza imagen1.jpg, imagen2.jpg, etc., con las rutas a tus imágenes respectivas.
+
+Recuerda que este código HTML y CSS básico es solo un punto de partida. Puedes
+ expandirlo agregando más secciones, detalles de los productos, funcionalidades
+ de compra, etc., según las necesidades de tu tienda en línea.

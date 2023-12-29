@@ -1,0 +1,57 @@
+  ---------TABLAS------------
+
+
+se usa esta etiqueta <table>
+
+ tenemos <tr> con <tr> definimos las filas horizontal     
+   
+eje:
+         ------------------
+
+
+
+
+
+despues tenemos <td> define las filas verticales
+
+
+            I
+            I
+            I
+            I
+            I       
+
+si queremos hacer una tabla por ejemplo de :nombre,edad,
+presupuesto, deberiamos hacerlo asi:
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tablas</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><b>Nombre</b></td>
+            <td><b>años</b></td>
+            <td><b>presupuesto</b></td>
+        </tr>
+        <tr>
+            <td>raul alvarez</td>
+            <td>40</td>
+            <td>$200.000</td>
+        </tr>
+        <tr>
+            <td>carlos sebatier</td>
+            <td>52</td>
+            <td>$190.000</td>
+        </tr>
+        <tr>
+            <td>damian trevole</td>
+            <td>32</td>
+            <td>$350.000</td>
+        </tr>
+    </table>
+</body>
+</html>

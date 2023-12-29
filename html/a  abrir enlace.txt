@@ -1,0 +1,12 @@
+
+
+
+<a href=" " : te abre un enlace
+
+y si le agregamos el "target" nos abrira ese enlace en otra pestaña es decir
+sin irse de nuestra pagina
+
+ejemplo:
+
+<a hrewf="modminecraft.com" target="_blank"> click aqui 
+

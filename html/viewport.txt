@@ -1,0 +1,15 @@
+ 
+ 
+ 
+ 
+Claro, el "viewport" en HTML se refiere al área visible de una página web
+ en un navegador. La etiqueta <meta name="viewport"> permite a los desarrolladores
+ controlar cómo el contenido se adapta al tamaño de la pantalla del dispositivo
+. Esto es esencial para el diseño responsivo, asegurando que los sitios web se
+ vean correctamente en diferentes dispositivos al ajustar el contenido para adaptarse 
+al ancho de la pantalla.
+ 
+ 
+ podriamos poner por ejemplo:
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">

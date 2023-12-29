@@ -1,0 +1,20 @@
+ 
+ 
+ <b>: negrita
+ <i>: talica
+ <strike>: tachada
+ <samall> chiquita
+
+etiquetas en linea y bloque
+
+ejemplo:
+
+completa la linea
+
+<h1>............... 
+
+no completa la linea
+
+ por lo atanto es un elemento en bloque
+
+<B>

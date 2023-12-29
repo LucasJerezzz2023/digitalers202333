@@ -1,0 +1,147 @@
+
+ ETIQUETAS QUE SE HABREN Y NO CIERRAN
+...........................................
+
+<br> :  produce un salto de línea en el texto (retorno de carro).
+ Es útil para escribir un poema o una dirección, donde la división
+ de las líneas es significante.
+
+<area> : para crear las distintas secciones en las que se puede dividir
+ un mapas de imágenes en el cliente 
+
+<base> :  especifica la dirección URL base que se utilizará para
+ todas las direcciones URL relativas contenidas dentro de un documento,
+es decir: si tenemos que repetir muchas veces la misma url,esta etiqueta 
+nos sirve para no tener que repetir el mismo enlace
+ 
+ <col> : Permite especificar propiedades para una columna o un grupo de ellas
+
+ <embed> : representa un punto de integración para una aplicación externa
+  o de contenido interactivo
+
+ <hr> :  representa un cambio de tema entre párrafos (por ejemplo,
+ un cambio de escena en una historia, un cambio de tema en una sección).
+
+ <img> : representa una imagen en el documento
+
+ <input> : permite que el usuario especifique un valor numérico
+ comprendido entre un valor mínimo y máximo
+
+ <link> : enlaza externamente (a otra página o documento en 
+ una web diferente) o internamente (a otros recursos en tu web).
+
+ <meta> : Sirve para aportar información sobre el documento,Está definido como:
+  Elemento de cabecera.
+
+ <param> : es utilizada para especificar parámetros para objetos insertados
+ en una página web mediante la etiqueta <object>. Se utiliza dentro de un
+ elemento <object> y permite configurar opciones adicionales para el contenido
+ multimedia u objeto insertado.
+
+ <source> : especifica recursos de medios múltiples para los elementos 
+<picture> , <audio> , o <video> . Es un elemento vacío. Normalmente
+ se utiliza para servir el mismo contenido multimedia en varios
+ formatos soportados por diferentes navegadores (en-US)
+
+ <track> : se utiliza como elemento hijo de los elementos multimedia,
+ <audio> y <video> . Le permite especificar pistas de texto cronometradas
+ (o datos basados en el tiempo), por ejemplo, para manejar subtítulos
+ automáticamente
+
+ <wbr>: word break opportunity <wbr> representa una posición
+ dentro del texto donde el explorador puede opcionalmente saltar
+ una línea , aunque sus reglas de salto de línea de otra manera 
+no crearían un salto en esa posición
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+ETIQUETAS QUE SE HABREN Y CIERRAN
+---------------------------------
+
+
+<body> : Indica la parte del cuerpo del contenido de un documento HTML.
+ Es una etiqueta esencial para cualquier documento ya que indica donde
+ empieza el contenido visible del documento.
+
+<head> : La parte superior del documento HTML, es donde podremos indicar
+ los metadatos: título del documento, hojas de estilos, javaScript, CSS…
+esta etiqueta no se ve en la pagina
+
+<div> : Un elemento que es usado mayoritariamente para agrupar otros
+ elementos y actuar como plantilla de otros controles. La etiqueta
+ <div> nos ayuda a estructurar el documento en secciones.
+
+<a> : Es una etiqueta que nos ayuda a poder crear un enlace a una página web.
+ El atributo principal de la etiqueta HTML es href, donde pondremos el enlace 
+al que queremos conectar. Otro atributo muy usado es target, el cual nos sirve
+ para indicar si el enlace se abrirá en una nueva ventana o en la misma.
+
+<strong> : Si tienes mucho texto, es importante poder dar énfasis a una parte
+ en concreto, con la etiqueta strong lo podemos hacer.
+
+<br> : Con esta etiqueta HTML le podemos decir al navegador que 
+viene un salto de línea. Nos sirve para hacer el texto más leíble.
+
+<H1>…<H6> : Hay diferentes niveles de títulos, del 1 al 6. Las etiquetas
+ <H + número> nos permiten indicar la importancia del título y para estructurar
+ el contenido, de esta forma ayudamos a los bots a entender la importancia del contenido.
+
+<img> : Usamos la etiqueta IMG para mostrar imágenes dentro del contenido.
+ Necesita el atributo src para funcionar, ya que será donde indicaremos
+ desde donde tiene que mostrar la imagen.
+
+<ol> : Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas
+ y UL para listas sin orden. Dentro de las listas, los elementos se identifican con
+ la etiqueta LI.
+Ejemplo HTML:-----------------
+
+<ul>
+
+<li>Primer elemento</li>
+
+<li>Segundo elemento</li>
+
+<ul>
+------------------------------
+
+<p> : Etiqueta que nos sirve para agrupar texto dentro de un parágrafo.
+ El propósito es poder hacer el contenido más fácil de leer y organizado.
+
+<span> : Con la etiqueta podemos personalizar el estilo de solamente
+ una parte del texto.
+
+Ejemplo HTML:
+
+Solo <span style=”color: red;”>esta palabra</span> en rojo.
+
+<nav> : representa una sección de una página cuyo propósito es proporcionar
+ enlaces de navegación, ya sea dentro del documento actual o a otros 
+documentos. Ejemplos comunes de secciones de navegación son menús, tablas
+ de contenido e índices,se utiliza dentro de las etiquetas <body> y </body>
+ pero no dentro de las etiquetas del encabezado <header>.
+
+<header> : representa un grupo de ayudas introductorias o de navegación.
+ Puede contener algunos elementos de encabezado, así como también un logo,
+ un formulario de búsqueda, un nombre de autor y otros componentes.
+
+<main> : Claro, el elemento <main> en HTML5 se usa para encerrar el contenido
+ principal de una página web, como artículos, secciones clave u otro contenido
+ relevante. Ayuda a estructurar la página de manera clara y semántica, permitiendo
+ identificar fácilmente qué parte del contenido es el más importante. Esto beneficia
+ tanto a los usuarios como a los motores de búsqueda al facilitar la comprensión
+ y la navegación del contenido principal de la página.
+
+<article> : Su uso radica en definir un fragmento de contenido específico
+ dentro de una página HTML, puede ser usada por ejemplo para definir un artículo,
+ noticia, entrada de un blog, un comentario, un mensaje de un foro o cualquier
+ fragmento de información independiente y relevante en la página.
+
+<footer> : indica el término del sitio web dentro de la estructura.
+ Por lo tanto, necesitas revisar el código de tu página para agregar
+ un footer. En general, tu sitio tendrá «header» o cabeza y «body» o 
+cuerpo, así que «footer» representa el cierre
+

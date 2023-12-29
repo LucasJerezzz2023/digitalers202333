@@ -1,0 +1,75 @@
+  -----------<header> y el <nav>---------------
+ 
+
+
+el <header> y el <nav> van de la mano
+el nav lo que hace es mandarnos en distintas partes de la pagina
+
+<nav> representa una sección de una página cuyo propósito es proporcionar
+ enlaces de navegación, ya sea dentro del documento actual o a otros documentos.
+ Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.
+
+asi va el nav:   
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>titulo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            
+        </nav>
+    </header>
+    
+</body>
+</html>
+
+otro ejemplo de usar el nav:
+
+
+ <header>
+        <nav>
+              <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="micuenta.html">micuenta</a></li>
+                <li><a href="nosotros.html">sobre nosotros</a></li>      estos 3 enlaces nos llevan a distintas secciones de la pagina
+ 
+
+                
+              </ul>
+        </nav>
+    </header>
+    <h1>
+        esta pagina es el inicio
+    </h1>
+    <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Explicabo debitis ullam consequuntur, ratione facere commodi
+          impedit dolor temporibus enim dignissimos qui alias cupiditate
+           incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+    </h2>
+
+    <h1>
+        esta pagina es mi cuenta
+    </h1>
+    <h2>
+        <p>
+            nombre: pepe raul alvarez
+            instagram: @pepealvarez_ok
+            youtube: pepe raul alvarez
+        </p> 
+
+    </h2>
+
+    <h1>
+        acerca de nosotros
+    </h1>
+    <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Explicabo debitis ullam consequuntur, ratione facere commodi
+          impedit dolor temporibus enim dignissimos qui alias cupiditate
+           incidunt eligendi voluptatum necessitatibus, ab quaerat. Debitis!
+    </h2>

@@ -1,0 +1,37 @@
+
+                  LISTAS
+
+<ul>: listas no ordenadas
+<ol>: listas ordenadas con numeros
+<li> : listas
+<form>: formularios
+<input type="" name=""
+<input>: entrada de datos,por eje: le pedimos que nos inserte un texto
+type: "text": las aventuras de mi gato
+"password": ********
+"number": 546456457
+"email" : raulalvarez44@gmail.com
+"color" : rojo
+"range min=10 max=1000"
+"date" :25/04/1976
+"time" : 16:53pm
+"button" : es un boton tiene que tener si o si un "value", por eje: button value="boton"
+"submit" : es un boton de enviar
+"required" : significa que se requiere, eje: <input type= "password" required=""> : es decir se requiere
+que haya una contraseña
+<textarea> aparece un cuadro para escribir lo que quieras pero si ponemos "readonly": solamente 
+podremos leer lo que aparezca en el cuadro
+<value>: evaluar una propiedad,por eje: <input type="text" value="hola gabriel">y en el cuadro del texto
+aparecera : hola gabriel
+
+--------------------------------------
+
+para hacer una lista
+
+<ul> : unorder list: lista desordenada
+<ol> : order list: lista ordenada
+
+el <ul> o <ol> es como el papel
+
+y el <li> vendria ser la lapicera
+

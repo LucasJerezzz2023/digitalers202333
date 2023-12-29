@@ -1,0 +1,52 @@
+
+
+PARA PONER IMAGENES
+ 
+ 
+ <img> : poner imagen
+
+ejemplo
+   
+   <img src="imagen1.png" alt="goku">
+
+<tittle> para que cuando pasemos el mouse por la imagen
+nos aparezca el titulo por ejemplo:
+
+<img src="gokusupersayajin.png" alt"goku" tittle="personaje">
+
+
+---------------------------------------------------
+
+ PARA AGREGAR UN VIDEO
+
+
+<video>: añade un video a la pagina
+ eje:
+
+el video siempre tiene que terminar en un formato de video
+
+<video src="animalesjugando.mp4">
+</video>
+
+como ven el formato termino en ".mp4"
+
+pero para que el video funcione debemos usar el 
+atributo: "controls" es un atributo quae nos permite acceder a los 
+controles del video,a los controles que el navegador nos permite
+
+entonces nos quedaria asi
+
+ <video src="animalesjugando.mp4" controls>
+</video>
+----------------------------------------------------------
+
+ PARA AGREGAR UN AUDIO
+
+y si de pronto quieren que se convierta en audio le ponemos "audio"
+
+por ejemplo: 
+
+ <audio src="animalesjugando.mp4" controls>
+</audio>
+
+en audio puede ir tambien el ".ogg"
